@@ -1,0 +1,41 @@
+﻿@model LocadoraDejogos.Models.Alugueis
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Alugueis</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="ID" />
+            <div class="form-group">
+                <label asp-for="ClienteID" class="control-label"></label>
+                <select asp-for="ClienteID" class="form-control" asp-items="ViewBag.ClienteID"></select>
+                <span asp-validation-for="ClienteID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="JogoID" class="control-label"></label>
+                <select asp-for="JogoID" class="form-control" asp-items="ViewBag.JogoID"></select>
+                <span asp-validation-for="JogoID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FuncionarioID" class="control-label"></label>
+                <select asp-for="FuncionarioID" class="form-control" asp-items="ViewBag.FuncionarioID"></select>
+                <span asp-validation-for="FuncionarioID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

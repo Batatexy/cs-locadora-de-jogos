@@ -3,12 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|c:\\users\\gabriel carrascosa\\cs-workspace\\cs-locadora-de-jogos\\locadoradejogos\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|solutionrelative:locadoradejogos\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|c:\\users\\gabriel carrascosa\\cs-workspace\\cs-locadora-de-jogos\\locadoradejogos\\controllers\\jogosconsolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|solutionrelative:locadoradejogos\\controllers\\jogosconsolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|c:\\users\\gabriel carrascosa\\cs-workspace\\cs-locadora-de-jogos\\locadoradejogos\\controllers\\funcionarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|solutionrelative:locadoradejogos\\controllers\\funcionarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|c:\\users\\gabriel carrascosa\\cs-workspace\\cs-locadora-de-jogos\\locadoradejogos\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|solutionrelative:locadoradejogos\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|c:\\users\\gabriel carrascosa\\cs-workspace\\cs-locadora-de-jogos\\locadoradejogos\\controllers\\alugueiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|solutionrelative:locadoradejogos\\controllers\\alugueiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|c:\\users\\gabriel carrascosa\\cs-workspace\\cs-locadora-de-jogos\\locadoradejogos\\models\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|solutionrelative:locadoradejogos\\models\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|c:\\users\\gabriel carrascosa\\cs-workspace\\cs-locadora-de-jogos\\locadoradejogos\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|solutionrelative:locadoradejogos\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|c:\\users\\gabriel carrascosa\\cs-workspace\\cs-locadora-de-jogos\\locadoradejogos\\models\\alugueis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|solutionrelative:locadoradejogos\\models\\alugueis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|c:\\users\\gabriel carrascosa\\cs-workspace\\cs-locadora-de-jogos\\locadoradejogos\\controllers\\consolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|solutionrelative:locadoradejogos\\controllers\\consolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|c:\\users\\gabriel carrascosa\\cs-workspace\\cs-locadora-de-jogos\\locadoradejogos\\controllers\\jogoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|solutionrelative:locadoradejogos\\controllers\\jogoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|c:\\users\\gabriel carrascosa\\cs-workspace\\cs-locadora-de-jogos\\locadoradejogos\\models\\jogosconsoles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,16 +55,16 @@
       "RelativeMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|solutionrelative:locadoradejogos\\models\\funcionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|c:\\users\\gabriel carrascosa\\cs-workspace\\cs-locadora-de-jogos\\locadoradejogos\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|solutionrelative:locadoradejogos\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|c:\\users\\gabriel carrascosa\\cs-workspace\\cs-locadora-de-jogos\\locadoradejogos\\models\\consoles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|solutionrelative:locadoradejogos\\models\\consoles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|c:\\users\\gabriel carrascosa\\cs-workspace\\cs-locadora-de-jogos\\locadoradejogos\\models\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|solutionrelative:locadoradejogos\\models\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|c:\\users\\gabriel carrascosa\\cs-workspace\\cs-locadora-de-jogos\\locadoradejogos\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|solutionrelative:locadoradejogos\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|c:\\users\\gabriel carrascosa\\cs-workspace\\cs-locadora-de-jogos\\locadoradejogos\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|solutionrelative:locadoradejogos\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|c:\\users\\gabriel carrascosa\\cs-workspace\\cs-locadora-de-jogos\\locadoradejogos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,10 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|c:\\users\\gabriel carrascosa\\cs-workspace\\cs-locadora-de-jogos\\locadoradejogos\\locadoradejogos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|solutionrelative:locadoradejogos\\locadoradejogos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|c:\\users\\gabriel carrascosa\\cs-workspace\\cs-locadora-de-jogos\\locadoradejogos\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|solutionrelative:locadoradejogos\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|c:\\users\\gabriel carrascosa\\cs-workspace\\cs-locadora-de-jogos\\locadoradejogos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -58,24 +86,108 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JogosConsolesController.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Controllers\\JogosConsolesController.cs",
+              "RelativeDocumentMoniker": "LocadoraDejogos\\Controllers\\JogosConsolesController.cs",
+              "ToolTip": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Controllers\\JogosConsolesController.cs",
+              "RelativeToolTip": "LocadoraDejogos\\Controllers\\JogosConsolesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T19:26:55.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FuncionariosController.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Controllers\\FuncionariosController.cs",
+              "RelativeDocumentMoniker": "LocadoraDejogos\\Controllers\\FuncionariosController.cs",
+              "ToolTip": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Controllers\\FuncionariosController.cs",
+              "RelativeToolTip": "LocadoraDejogos\\Controllers\\FuncionariosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T19:26:25.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "LocadoraDejogos\\Controllers\\ClientesController.cs",
+              "ToolTip": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "LocadoraDejogos\\Controllers\\ClientesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T19:25:25.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AlugueisController.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Controllers\\AlugueisController.cs",
+              "RelativeDocumentMoniker": "LocadoraDejogos\\Controllers\\AlugueisController.cs",
+              "ToolTip": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Controllers\\AlugueisController.cs",
+              "RelativeToolTip": "LocadoraDejogos\\Controllers\\AlugueisController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T19:24:28.417Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "LocadoraDejogos\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "LocadoraDejogos\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T18:55:56.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ConsolesController.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Controllers\\ConsolesController.cs",
+              "RelativeDocumentMoniker": "LocadoraDejogos\\Controllers\\ConsolesController.cs",
+              "ToolTip": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Controllers\\ConsolesController.cs",
+              "RelativeToolTip": "LocadoraDejogos\\Controllers\\ConsolesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T18:56:36.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "JogosController.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Controllers\\JogosController.cs",
+              "RelativeDocumentMoniker": "LocadoraDejogos\\Controllers\\JogosController.cs",
+              "ToolTip": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Controllers\\JogosController.cs",
+              "RelativeToolTip": "LocadoraDejogos\\Controllers\\JogosController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T18:53:25.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "LocadoraDejogos\\Data\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "LocadoraDejogos\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAA4wB4AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T17:13:17.53Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-02T17:13:17.53Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
               "Title": "LocadoraDejogos.csproj",
               "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\LocadoraDejogos.csproj",
               "RelativeDocumentMoniker": "LocadoraDejogos\\LocadoraDejogos.csproj",
@@ -87,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "LocadoraDejogos\\Models\\ErrorViewModel.cs",
@@ -99,91 +211,91 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "JogosConsoles.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Models\\JogosConsoles.cs",
               "RelativeDocumentMoniker": "LocadoraDejogos\\Models\\JogosConsoles.cs",
               "ToolTip": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Models\\JogosConsoles.cs",
               "RelativeToolTip": "LocadoraDejogos\\Models\\JogosConsoles.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-02T16:51:04.538Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Alugueis.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Models\\Alugueis.cs",
               "RelativeDocumentMoniker": "LocadoraDejogos\\Models\\Alugueis.cs",
               "ToolTip": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Models\\Alugueis.cs",
               "RelativeToolTip": "LocadoraDejogos\\Models\\Alugueis.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-02T16:50:52.761Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Clientes.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Models\\Clientes.cs",
               "RelativeDocumentMoniker": "LocadoraDejogos\\Models\\Clientes.cs",
               "ToolTip": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Models\\Clientes.cs",
               "RelativeToolTip": "LocadoraDejogos\\Models\\Clientes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-02T16:50:44.672Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "LocadoraDejogos\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Controllers\\HomeController.cs",
               "RelativeToolTip": "LocadoraDejogos\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-02T16:50:38.822Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "Funcionarios.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Models\\Funcionarios.cs",
               "RelativeDocumentMoniker": "LocadoraDejogos\\Models\\Funcionarios.cs",
               "ToolTip": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Models\\Funcionarios.cs",
               "RelativeToolTip": "LocadoraDejogos\\Models\\Funcionarios.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-02T16:50:37.757Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 14,
               "Title": "Consoles.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Models\\Consoles.cs",
               "RelativeDocumentMoniker": "LocadoraDejogos\\Models\\Consoles.cs",
               "ToolTip": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Models\\Consoles.cs",
               "RelativeToolTip": "LocadoraDejogos\\Models\\Consoles.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBoAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-02T16:50:27.172Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "Jogos.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Models\\Jogos.cs",
               "RelativeDocumentMoniker": "LocadoraDejogos\\Models\\Jogos.cs",
               "ToolTip": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Models\\Jogos.cs",
               "RelativeToolTip": "LocadoraDejogos\\Models\\Jogos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwCcAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-02T16:50:09.966Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Program.cs",
               "RelativeDocumentMoniker": "LocadoraDejogos\\Program.cs",
@@ -195,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\appsettings.json",
               "RelativeDocumentMoniker": "LocadoraDejogos\\appsettings.json",

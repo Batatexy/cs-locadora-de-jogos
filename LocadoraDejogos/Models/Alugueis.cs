@@ -18,7 +18,7 @@ namespace LocadoraDejogos.Models
         public int? FuncionarioID { get; set; }
 
 
-
+        // Chaves estrangeiras:
         public Clientes? Clientes { get; set; }
         public Jogos? Jogos { get; set; }
         public Funcionarios? Funcionarios { get; set; }

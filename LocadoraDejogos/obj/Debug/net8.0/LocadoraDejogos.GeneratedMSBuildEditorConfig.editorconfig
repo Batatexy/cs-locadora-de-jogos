@@ -26,12 +26,132 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Gabriel Carrascosa\cs-workspace\cs-locadora-de-jogos\LocadoraDejogos
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Gabriel Carrascosa/cs-workspace/cs-locadora-de-jogos/LocadoraDejogos/Views/Alugueis/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1Z3VlaXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabriel Carrascosa/cs-workspace/cs-locadora-de-jogos/LocadoraDejogos/Views/Alugueis/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1Z3VlaXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabriel Carrascosa/cs-workspace/cs-locadora-de-jogos/LocadoraDejogos/Views/Alugueis/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1Z3VlaXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabriel Carrascosa/cs-workspace/cs-locadora-de-jogos/LocadoraDejogos/Views/Alugueis/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1Z3VlaXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabriel Carrascosa/cs-workspace/cs-locadora-de-jogos/LocadoraDejogos/Views/Alugueis/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1Z3VlaXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabriel Carrascosa/cs-workspace/cs-locadora-de-jogos/LocadoraDejogos/Views/Clientes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabriel Carrascosa/cs-workspace/cs-locadora-de-jogos/LocadoraDejogos/Views/Clientes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabriel Carrascosa/cs-workspace/cs-locadora-de-jogos/LocadoraDejogos/Views/Clientes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabriel Carrascosa/cs-workspace/cs-locadora-de-jogos/LocadoraDejogos/Views/Clientes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabriel Carrascosa/cs-workspace/cs-locadora-de-jogos/LocadoraDejogos/Views/Clientes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabriel Carrascosa/cs-workspace/cs-locadora-de-jogos/LocadoraDejogos/Views/Consoles/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc29sZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabriel Carrascosa/cs-workspace/cs-locadora-de-jogos/LocadoraDejogos/Views/Consoles/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc29sZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabriel Carrascosa/cs-workspace/cs-locadora-de-jogos/LocadoraDejogos/Views/Consoles/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc29sZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabriel Carrascosa/cs-workspace/cs-locadora-de-jogos/LocadoraDejogos/Views/Consoles/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc29sZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabriel Carrascosa/cs-workspace/cs-locadora-de-jogos/LocadoraDejogos/Views/Consoles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc29sZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabriel Carrascosa/cs-workspace/cs-locadora-de-jogos/LocadoraDejogos/Views/Funcionarios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnVuY2lvbmFyaW9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabriel Carrascosa/cs-workspace/cs-locadora-de-jogos/LocadoraDejogos/Views/Funcionarios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnVuY2lvbmFyaW9zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabriel Carrascosa/cs-workspace/cs-locadora-de-jogos/LocadoraDejogos/Views/Funcionarios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnVuY2lvbmFyaW9zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabriel Carrascosa/cs-workspace/cs-locadora-de-jogos/LocadoraDejogos/Views/Funcionarios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnVuY2lvbmFyaW9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabriel Carrascosa/cs-workspace/cs-locadora-de-jogos/LocadoraDejogos/Views/Funcionarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnVuY2lvbmFyaW9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Gabriel Carrascosa/cs-workspace/cs-locadora-de-jogos/LocadoraDejogos/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Gabriel Carrascosa/cs-workspace/cs-locadora-de-jogos/LocadoraDejogos/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabriel Carrascosa/cs-workspace/cs-locadora-de-jogos/LocadoraDejogos/Views/JogosConsoles/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9nb3NDb25zb2xlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabriel Carrascosa/cs-workspace/cs-locadora-de-jogos/LocadoraDejogos/Views/JogosConsoles/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9nb3NDb25zb2xlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabriel Carrascosa/cs-workspace/cs-locadora-de-jogos/LocadoraDejogos/Views/JogosConsoles/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9nb3NDb25zb2xlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabriel Carrascosa/cs-workspace/cs-locadora-de-jogos/LocadoraDejogos/Views/JogosConsoles/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9nb3NDb25zb2xlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabriel Carrascosa/cs-workspace/cs-locadora-de-jogos/LocadoraDejogos/Views/JogosConsoles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9nb3NDb25zb2xlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabriel Carrascosa/cs-workspace/cs-locadora-de-jogos/LocadoraDejogos/Views/Jogos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9nb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabriel Carrascosa/cs-workspace/cs-locadora-de-jogos/LocadoraDejogos/Views/Jogos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9nb3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabriel Carrascosa/cs-workspace/cs-locadora-de-jogos/LocadoraDejogos/Views/Jogos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9nb3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabriel Carrascosa/cs-workspace/cs-locadora-de-jogos/LocadoraDejogos/Views/Jogos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9nb3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabriel Carrascosa/cs-workspace/cs-locadora-de-jogos/LocadoraDejogos/Views/Jogos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9nb3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Gabriel Carrascosa/cs-workspace/cs-locadora-de-jogos/LocadoraDejogos/Views/Shared/Error.cshtml]
