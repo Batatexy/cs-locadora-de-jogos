@@ -19,5 +19,10 @@ namespace LocadoraDejogos.Models
 
         [DisplayName("Telefone")]
         public string? Telefone { get; set; }
+
+
+
+        // É referenciado em:
+        public ICollection<Alugueis>? Alugueis { get; set; }
     }
 }

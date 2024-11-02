@@ -13,5 +13,11 @@ namespace LocadoraDejogos.Models
 
         [DisplayName("ID do Console")]
         public int? ConsoleID { get; set; }
+
+
+
+        // Chaves estrangeiras:
+        public Jogos? Jogos { get; set; }
+        public Consoles? Consoles { get; set; }
     }
 }

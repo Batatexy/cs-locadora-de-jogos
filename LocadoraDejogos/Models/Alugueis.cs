@@ -17,5 +17,11 @@ namespace LocadoraDejogos.Models
         [DisplayName("ID do Funcionário")]
         public int? FuncionarioID { get; set; }
 
+
+
+        public Clientes? Clientes { get; set; }
+        public Jogos? Jogos { get; set; }
+        public Funcionarios? Funcionarios { get; set; }
+
     }
 }

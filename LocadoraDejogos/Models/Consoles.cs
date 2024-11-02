@@ -19,5 +19,11 @@ namespace LocadoraDejogos.Models
 
         [DisplayName("Ano de Lançamento")]
         public int? Ano { get; set; }
+
+
+
+
+        public ICollection<Jogos>? Jogos { get; set; }
+        public ICollection<JogosConsoles>? JogosConsoles { get; set; }
     }
 }

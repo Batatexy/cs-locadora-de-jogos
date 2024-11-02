@@ -15,82 +15,16 @@ namespace LocadoraDejogos.Data
         //adicionar um atributo do tipo dbset, que simboliza a tabela de BD aqui no C#
         //é necessário add um atributo dbset para cada tabela do BD
 
-        public class Funcionarios
-        {
-            public int ID { get; set; } // Chave primária
-            public string? CPF { get; set; }
-            public string? Nome { get; set; }
-            public string? DataNascimento { get; set; }
+        public DbSet<Jogos> Jogos { get; set; }
+        public DbSet<Consoles> Consoles { get; set; }
+        public DbSet<Funcionarios> Funcionarios { get; set; }
+        public DbSet<Clientes> Clientes { get; set; }
+        public DbSet<Alugueis> Alugueis { get; set; }
+        public DbSet<JogosConsoles> JogosConsoles { get; set; }
 
-            // É referenciado em:
-            public ICollection<Alugueis>? Alugueis { get; set; }
-        }
 
-        public class Clientes
-        {
-            public int ID { get; set; }
-            public string? CPF { get; set; }
-            public string? Nome { get; set; }
-            public string? DataNascimento { get; set; }
-            public string? Telefone { get; set; }
 
-            // É referenciado em:
-            public ICollection<Alugueis>? Alugueis { get; set; }
-        }
 
-        public class JogosConsoles
-        {
-            public int ID { get; set; }
-            public Jogos? JogoID { get; set; }
-            public Consoles? ConsoleID { get; set; }
-            
-            // Chaves estrangeiras:
-            public Jogos? Jogos { get; set; }
-            public Consoles? Consoles { get; set; }
-        }
-
-        public class Alugueis
-        {
-            public int ID { get; set; }
-            public Clientes? ClienteID { get; set; }
-            public Jogos? JogoID { get; set; } 
-            public Funcionarios? FuncionarioID { get; set; }
-
-            public Clientes? Clientes { get; set; }
-            public Jogos? Jogos { get; set; }
-            public Funcionarios? Funcionarios { get; set; }
-        }
-
-        public class Jogos
-        {
-            public int ID { get; set; }
-            public string? Nome { get; set; }
-            public string? Desenvolvedor { get; set; }
-            public string? Distribuidora { get; set; }
-            public string? Genero { get; set; }
-            public int? Ano { get; set; }
-            public int? Unidade { get; set; }
-            public int ConsoleID { get; set; }
-
-            // Chaves estrangeiras:
-            public Consoles? Consoles { get; set; }
-
-            // É referenciado em:
-            public ICollection<Alugueis>? Alugueis { get; set; }
-            public ICollection<JogosConsoles>? JogosConsoles { get; set; }
-        }
-
-        public class Consoles
-        {
-            public int? ID { get; set; }
-            public string? Nome { get; set; }
-            public string? Fabricante { get; set; }
-            public int? Geracao { get; set; }
-            public int? Ano { get; set; }
-
-            public ICollection<Jogos>? Jogos { get; set; }
-            public ICollection<JogosConsoles>? JogosConsoles { get; set; }
-        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

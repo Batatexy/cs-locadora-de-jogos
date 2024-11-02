@@ -16,5 +16,10 @@ namespace LocadoraDejogos.Models
 
         [DisplayName("Data de Nascimento")]
         public string? DataNascimento { get; set; }
+
+
+
+        // É referenciado em:
+        public ICollection<Alugueis>? Alugueis { get; set; }
     }
 }

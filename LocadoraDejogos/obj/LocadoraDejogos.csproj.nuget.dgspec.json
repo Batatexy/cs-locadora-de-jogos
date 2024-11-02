@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\LocadoraDejogos\\LocadoraDejogos\\LocadoraDejogos.csproj": {}
+    "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\LocadoraDejogos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\LocadoraDejogos\\LocadoraDejogos\\LocadoraDejogos.csproj": {
+    "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\LocadoraDejogos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\LocadoraDejogos\\LocadoraDejogos\\LocadoraDejogos.csproj",
+        "projectUniqueName": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\LocadoraDejogos.csproj",
         "projectName": "LocadoraDejogos",
-        "projectPath": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\LocadoraDejogos\\LocadoraDejogos\\LocadoraDejogos.csproj",
+        "projectPath": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\LocadoraDejogos.csproj",
         "packagesPath": "C:\\Users\\Gabriel Carrascosa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\LocadoraDejogos\\LocadoraDejogos\\obj\\",
+        "outputPath": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gabriel Carrascosa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -49,6 +49,16 @@
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.6, )"
             }
           },
           "imports": [
