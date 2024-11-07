@@ -46,6 +46,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "IGDB": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[8.0.10, )"
@@ -59,6 +63,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[8.0.6, )"
+            },
+            "RestEase": {
+              "target": "Package",
+              "version": "[1.6.4, )"
             }
           },
           "imports": [

@@ -1,4 +1,7 @@
-﻿using System.ComponentModel;
+﻿using IGDB;
+using IGDB.Models;
+using LocadoraDejogos.Models;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
 namespace LocadoraDejogos.Models
@@ -7,6 +10,17 @@ namespace LocadoraDejogos.Models
     {
         [Key]
         public int ID { get; set; }
+
+
+
+        [DisplayName("Capa")]
+        public string? CapaURL { get; set; }
+
+        public string? FundoURL { get; set; }
+
+        public string? LojaURL { get; set; }
+
+
 
         [DisplayName("Nome")]
         public string? Nome { get; set; }
@@ -26,10 +40,13 @@ namespace LocadoraDejogos.Models
         [DisplayName("Unidade")]
         public int? Unidade { get; set; }
 
+        //Atrelado à 1 console
         [DisplayName("ID do Console")]
         public int? ConsoleID { get; set; }
 
-
+        //Atrelado à vários, ainda em testes
+        [DisplayName("JogosConsolesID")]
+        public int? JogosConsolesID { get; set; }
 
 
         // Chaves estrangeiras:

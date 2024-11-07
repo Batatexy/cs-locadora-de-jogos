@@ -259,3 +259,5 @@ C:\Users\Gabriel Carrascosa\cs-workspace\cs-locadora-de-jogos\LocadoraDejogos\ob
 C:\Users\Gabriel Carrascosa\cs-workspace\cs-locadora-de-jogos\LocadoraDejogos\obj\Debug\net8.0\LocadoraDejogos.pdb
 C:\Users\Gabriel Carrascosa\cs-workspace\cs-locadora-de-jogos\LocadoraDejogos\obj\Debug\net8.0\LocadoraDejogos.genruntimeconfig.cache
 C:\Users\Gabriel Carrascosa\cs-workspace\cs-locadora-de-jogos\LocadoraDejogos\obj\Debug\net8.0\ref\LocadoraDejogos.dll
+C:\Users\Gabriel Carrascosa\cs-workspace\cs-locadora-de-jogos\LocadoraDejogos\bin\Debug\net8.0\IGDB.dll
+C:\Users\Gabriel Carrascosa\cs-workspace\cs-locadora-de-jogos\LocadoraDejogos\bin\Debug\net8.0\RestEase.dll

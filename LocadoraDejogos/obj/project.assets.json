@@ -596,6 +596,19 @@
           }
         }
       },
+      "IGDB/5.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "RestEase": "1.5.5"
+        },
+        "compile": {
+          "lib/netstandard2.0/IGDB.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IGDB.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Razor.Language/6.0.24": {
         "type": "package",
         "compile": {
@@ -1120,6 +1133,15 @@
           "lib/net7.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll": {
             "locale": "zh-Hant"
           }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
         }
       },
       "Microsoft.Data.Sqlite.Core/8.0.10": {
@@ -1779,6 +1801,22 @@
         },
         "runtime": {
           "lib/netstandard2.0/NuGet.Versioning.dll": {}
+        }
+      },
+      "RestEase/1.6.4": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "lib/net5.0/RestEase.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/RestEase.dll": {
+            "related": ".xml"
+          }
         }
       },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.6": {
@@ -3161,6 +3199,18 @@
         "logo.png"
       ]
     },
+    "IGDB/5.1.0": {
+      "sha512": "jKlFv0B4Wg5w0Y1wDzhb6rarfdiZqykDB6kE2XoK1TGqp1W+Ddmh/Rpw1wthvXTNCBmx2OAtVwbdWAEI0QNQOw==",
+      "type": "package",
+      "path": "igdb/5.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "igdb.5.1.0.nupkg.sha512",
+        "igdb.nuspec",
+        "lib/netstandard2.0/IGDB.dll"
+      ]
+    },
     "Microsoft.AspNetCore.Razor.Language/6.0.24": {
       "sha512": "kBL6ljTREp/3fk8EKN27mrPy3WTqWUjiqCkKFlCKHUKRO3/9rAasKizX3vPWy4ZTcNsIPmVWUHwjDFmiW4MyNA==",
       "type": "package",
@@ -4319,6 +4369,75 @@
         "lib/netstandard2.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll",
         "microsoft.codeanalysis.workspaces.common.4.8.0.nupkg.sha512",
         "microsoft.codeanalysis.workspaces.common.nuspec"
+      ]
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "sha512": "pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "type": "package",
+      "path": "microsoft.csharp/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/Microsoft.CSharp.dll",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.3/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.xml",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/uap10.0.16299/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "microsoft.csharp.4.7.0.nupkg.sha512",
+        "microsoft.csharp.nuspec",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/Microsoft.CSharp.dll",
+        "ref/netcore50/Microsoft.CSharp.xml",
+        "ref/netcore50/de/Microsoft.CSharp.xml",
+        "ref/netcore50/es/Microsoft.CSharp.xml",
+        "ref/netcore50/fr/Microsoft.CSharp.xml",
+        "ref/netcore50/it/Microsoft.CSharp.xml",
+        "ref/netcore50/ja/Microsoft.CSharp.xml",
+        "ref/netcore50/ko/Microsoft.CSharp.xml",
+        "ref/netcore50/ru/Microsoft.CSharp.xml",
+        "ref/netcore50/zh-hans/Microsoft.CSharp.xml",
+        "ref/netcore50/zh-hant/Microsoft.CSharp.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/Microsoft.CSharp.dll",
+        "ref/netstandard1.0/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/de/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/es/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/fr/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/it/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ja/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ko/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ru/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/zh-hans/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/zh-hant/Microsoft.CSharp.xml",
+        "ref/netstandard2.0/Microsoft.CSharp.dll",
+        "ref/netstandard2.0/Microsoft.CSharp.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/uap10.0.16299/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "Microsoft.Data.Sqlite.Core/8.0.10": {
@@ -5601,6 +5720,29 @@
         "nuget.versioning.nuspec"
       ]
     },
+    "RestEase/1.6.4": {
+      "sha512": "nB8+vzkQLBgZyAm3fNcFYr0GV8TLhvnz8LpERR6K51Vv/wZ0kopU4nFEKTilt3uBn/PYYksthUVnj7GZlTo+pQ==",
+      "type": "package",
+      "path": "restease/1.6.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net452/RestEase.dll",
+        "lib/net452/RestEase.xml",
+        "lib/net5.0/RestEase.dll",
+        "lib/net5.0/RestEase.xml",
+        "lib/netstandard1.1/RestEase.dll",
+        "lib/netstandard1.1/RestEase.xml",
+        "lib/netstandard2.0/RestEase.dll",
+        "lib/netstandard2.0/RestEase.xml",
+        "lib/netstandard2.1/RestEase.dll",
+        "lib/netstandard2.1/RestEase.xml",
+        "restease.1.6.4.nupkg.sha512",
+        "restease.nuspec"
+      ]
+    },
     "SQLitePCLRaw.bundle_e_sqlite3/2.1.6": {
       "sha512": "BmAf6XWt4TqtowmiWe4/5rRot6GerAeklmOPfviOvwLoF5WwgxcJHAxZtySuyW9r9w+HLILnm8VfJFLCUJYW8A==",
       "type": "package",
@@ -6515,9 +6657,11 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "IGDB >= 5.1.0",
       "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.10",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.6"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.6",
+      "RestEase >= 1.6.4"
     ]
   },
   "packageFolders": {
@@ -6565,6 +6709,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "IGDB": {
+            "target": "Package",
+            "version": "[5.1.0, )"
+          },
           "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
             "version": "[8.0.10, )"
@@ -6578,6 +6726,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[8.0.6, )"
+          },
+          "RestEase": {
+            "target": "Package",
+            "version": "[1.6.4, )"
           }
         },
         "imports": [

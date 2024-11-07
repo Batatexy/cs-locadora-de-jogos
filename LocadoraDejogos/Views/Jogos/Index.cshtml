@@ -13,6 +13,10 @@
     <thead>
         <tr>
             <th>
+                @Html.DisplayNameFor(model => model.CapaURL)
+            </th>
+
+            <th>
                 @Html.DisplayNameFor(model => model.Nome)
             </th>
             <th>
@@ -31,14 +35,29 @@
                 @Html.DisplayNameFor(model => model.Unidade)
             </th>
             <th>
+                @Html.DisplayNameFor(model => model.JogosConsolesID)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.Consoles)
             </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
+
+
+
+
 @foreach (var item in Model) {
-        <tr>
+        <tr class="linha" data-background-url="@Html.DisplayFor(modelItem => item.FundoURL)">
+            <td>
+
+                <a href="@Html.DisplayFor(modelItem => item.LojaURL)">
+                    <img src="@Html.DisplayFor(modelItem => item.CapaURL)" style="width:100px; height:auto;" />
+                </a>
+                
+            </td>
+
             <td>
                 @Html.DisplayFor(modelItem => item.Nome)
             </td>
@@ -58,6 +77,9 @@
                 @Html.DisplayFor(modelItem => item.Unidade)
             </td>
             <td>
+                @Html.DisplayFor(modelItem => item.JogosConsolesID)
+            </td>
+            <td>
                 @Html.DisplayFor(modelItem => item.Consoles.ID)
             </td>
             <td>
@@ -69,3 +91,4 @@
 }
     </tbody>
 </table>
+

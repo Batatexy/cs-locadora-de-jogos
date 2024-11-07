@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fNRbiPsmUGo=",
+  "dgSpecHash": "YWoRvYrCB50=",
   "success": true,
   "projectFilePath": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\LocadoraDejogos.csproj",
   "expectedPackageFiles": [
@@ -54,6 +54,7 @@
     "C:\\Users\\Gabriel Carrascosa\\.nuget\\packages\\humanizer.core.zh-cn\\2.14.1\\humanizer.core.zh-cn.2.14.1.nupkg.sha512",
     "C:\\Users\\Gabriel Carrascosa\\.nuget\\packages\\humanizer.core.zh-hans\\2.14.1\\humanizer.core.zh-hans.2.14.1.nupkg.sha512",
     "C:\\Users\\Gabriel Carrascosa\\.nuget\\packages\\humanizer.core.zh-hant\\2.14.1\\humanizer.core.zh-hant.2.14.1.nupkg.sha512",
+    "C:\\Users\\Gabriel Carrascosa\\.nuget\\packages\\igdb\\5.1.0\\igdb.5.1.0.nupkg.sha512",
     "C:\\Users\\Gabriel Carrascosa\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.24\\microsoft.aspnetcore.razor.language.6.0.24.nupkg.sha512",
     "C:\\Users\\Gabriel Carrascosa\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "C:\\Users\\Gabriel Carrascosa\\.nuget\\packages\\microsoft.build\\17.8.3\\microsoft.build.17.8.3.nupkg.sha512",
@@ -69,6 +70,7 @@
     "C:\\Users\\Gabriel Carrascosa\\.nuget\\packages\\microsoft.codeanalysis.razor\\6.0.24\\microsoft.codeanalysis.razor.6.0.24.nupkg.sha512",
     "C:\\Users\\Gabriel Carrascosa\\.nuget\\packages\\microsoft.codeanalysis.scripting.common\\4.8.0\\microsoft.codeanalysis.scripting.common.4.8.0.nupkg.sha512",
     "C:\\Users\\Gabriel Carrascosa\\.nuget\\packages\\microsoft.codeanalysis.workspaces.common\\4.8.0\\microsoft.codeanalysis.workspaces.common.4.8.0.nupkg.sha512",
+    "C:\\Users\\Gabriel Carrascosa\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Gabriel Carrascosa\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.10\\microsoft.data.sqlite.core.8.0.10.nupkg.sha512",
     "C:\\Users\\Gabriel Carrascosa\\.nuget\\packages\\microsoft.diasymreader\\2.0.0\\microsoft.diasymreader.2.0.0.nupkg.sha512",
     "C:\\Users\\Gabriel Carrascosa\\.nuget\\packages\\microsoft.dotnet.scaffolding.shared\\8.0.6\\microsoft.dotnet.scaffolding.shared.8.0.6.nupkg.sha512",
@@ -110,6 +112,7 @@
     "C:\\Users\\Gabriel Carrascosa\\.nuget\\packages\\nuget.projectmodel\\6.11.0\\nuget.projectmodel.6.11.0.nupkg.sha512",
     "C:\\Users\\Gabriel Carrascosa\\.nuget\\packages\\nuget.protocol\\6.11.0\\nuget.protocol.6.11.0.nupkg.sha512",
     "C:\\Users\\Gabriel Carrascosa\\.nuget\\packages\\nuget.versioning\\6.11.0\\nuget.versioning.6.11.0.nupkg.sha512",
+    "C:\\Users\\Gabriel Carrascosa\\.nuget\\packages\\restease\\1.6.4\\restease.1.6.4.nupkg.sha512",
     "C:\\Users\\Gabriel Carrascosa\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.6\\sqlitepclraw.bundle_e_sqlite3.2.1.6.nupkg.sha512",
     "C:\\Users\\Gabriel Carrascosa\\.nuget\\packages\\sqlitepclraw.core\\2.1.6\\sqlitepclraw.core.2.1.6.nupkg.sha512",
     "C:\\Users\\Gabriel Carrascosa\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.6\\sqlitepclraw.lib.e_sqlite3.2.1.6.nupkg.sha512",

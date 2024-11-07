@@ -57,7 +57,7 @@ namespace LocadoraDejogos.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ID,Nome,Desenvolvedor,Distribuidora,Genero,Ano,Unidade,ConsoleID")] Jogos jogos)
+        public async Task<IActionResult> Create([Bind("ID,CapaURL,FundoURL,LojaURL,Nome,Desenvolvedor,Distribuidora,Genero,Ano,Unidade,ConsoleID,JogosConsolesID")] Jogos jogos)
         {
             if (ModelState.IsValid)
             {
@@ -91,7 +91,7 @@ namespace LocadoraDejogos.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,Nome,Desenvolvedor,Distribuidora,Genero,Ano,Unidade,ConsoleID")] Jogos jogos)
+        public async Task<IActionResult> Edit(int id, [Bind("ID,CapaURL,FundoURL,LojaURL,Nome,Desenvolvedor,Distribuidora,Genero,Ano,Unidade,ConsoleID,JogosConsolesID")] Jogos jogos)
         {
             if (id != jogos.ID)
             {
