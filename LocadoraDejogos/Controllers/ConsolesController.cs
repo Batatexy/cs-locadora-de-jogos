@@ -54,7 +54,7 @@ namespace LocadoraDejogos.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ID,Nome,Fabricante,Geracao,Ano")] Consoles consoles)
+        public async Task<IActionResult> Create([Bind("ID,ImagemURL,WikipediaURL,Nome,Fabricante,Geracao,Ano")] Consoles consoles)
         {
             if (ModelState.IsValid)
             {
@@ -86,7 +86,7 @@ namespace LocadoraDejogos.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,Nome,Fabricante,Geracao,Ano")] Consoles consoles)
+        public async Task<IActionResult> Edit(int id, [Bind("ID,ImagemURL,WikipediaURL,Nome,Fabricante,Geracao,Ano")] Consoles consoles)
         {
             if (id != consoles.ID)
             {

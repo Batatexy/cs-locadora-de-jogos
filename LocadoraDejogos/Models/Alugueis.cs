@@ -6,9 +6,10 @@ namespace LocadoraDejogos.Models
     public class Alugueis
     {
         [Key]
+        [DisplayName("ID")]
         public int ID { get; set; }
 
-        [DisplayName("ID do Cliete")]
+        [DisplayName("ID do Cliente")]
         public int? ClienteID { get; set; }
 
         [DisplayName("ID do Jogo")]

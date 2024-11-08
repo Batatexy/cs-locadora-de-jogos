@@ -6,7 +6,14 @@ namespace LocadoraDejogos.Models
     public class Clientes
     {
         [Key]
+        [DisplayName("ID")]
         public int ID { get; set; }
+
+        [DisplayName("Login")]
+        public string? Login { get; set; }
+
+        [DisplayName("Senha")]
+        public string? Senha { get; set; }
 
         [DisplayName("CPF")]
         public string? CPF { get; set; }

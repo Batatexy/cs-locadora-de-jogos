@@ -6,7 +6,17 @@ namespace LocadoraDejogos.Models
     public class Consoles
     {
         [Key]
+
+        [DisplayName("ID")]
         public int ID { get; set; }
+
+
+        [DisplayName("URL da Imagem")]
+        public string? ImagemURL { get; set; }
+
+        [DisplayName("URL da Wikipedia")]
+        public string? WikipediaURL { get; set; }
+
 
         [DisplayName("Nome")]
         public string? Nome { get; set; }
@@ -24,6 +34,5 @@ namespace LocadoraDejogos.Models
 
 
         public ICollection<Jogos>? Jogos { get; set; }
-        public ICollection<JogosConsoles>? JogosConsoles { get; set; }
     }
 }

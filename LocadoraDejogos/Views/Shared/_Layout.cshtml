@@ -12,7 +12,7 @@
 
 
 <body>
-    <header>
+    <header style="position: fixed; width:100%">
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">LocadoraDejogos</a>
@@ -76,20 +76,14 @@
                             </a>
                         </li>
 
-
-
-                        <li class=" = " nav-item" />
-                            <a class="nav-link" asp-area="" asp-controller="JogosConsoles" aso-action="Index">
-                            <i class=" = " tabindex=" bi-book"> JogosConsoles</i>
-                            </a>
-                        </li>
-
                     </ul>
 
                 </div>
             </div>
         </nav>
     </header>
+
+
 
     <div class="fundo">
         
@@ -102,9 +96,6 @@
     </div>
 
 
-    
-
-
 
     <footer class="border-top footer text-muted">
         <div class="container">
@@ -115,6 +106,8 @@
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
+
+
 
 </body>
 

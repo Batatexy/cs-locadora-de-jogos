@@ -9,15 +9,18 @@ namespace LocadoraDejogos.Models
     public class Jogos
     {
         [Key]
+        [DisplayName("ID")]
         public int ID { get; set; }
 
 
 
-        [DisplayName("Capa")]
+        [DisplayName("URL da Capa")]
         public string? CapaURL { get; set; }
 
+        [DisplayName("URL do Fundo")]
         public string? FundoURL { get; set; }
 
+        [DisplayName("URL da Loja")]
         public string? LojaURL { get; set; }
 
 
@@ -37,16 +40,15 @@ namespace LocadoraDejogos.Models
         [DisplayName("Ano de Lançamento")]
         public int? Ano { get; set; }
 
-        [DisplayName("Unidade")]
-        public int? Unidade { get; set; }
-
-        //Atrelado à 1 console
         [DisplayName("ID do Console")]
         public int? ConsoleID { get; set; }
 
-        //Atrelado à vários, ainda em testes
-        [DisplayName("JogosConsolesID")]
-        public int? JogosConsolesID { get; set; }
+        [DisplayName("Unidades")]
+        public int? Unidade { get; set; }
+
+        [DisplayName("Preço")]
+        public int? Preco { get; set; }
+
 
 
         // Chaves estrangeiras:
@@ -54,6 +56,5 @@ namespace LocadoraDejogos.Models
 
         // É referenciado em:
         public ICollection<Alugueis>? Alugueis { get; set; }
-        public ICollection<JogosConsoles>? JogosConsoles { get; set; }
     }
 }

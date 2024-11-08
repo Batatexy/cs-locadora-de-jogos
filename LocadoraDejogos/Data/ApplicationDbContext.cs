@@ -20,9 +20,6 @@ namespace LocadoraDejogos.Data
         public DbSet<Funcionarios> Funcionarios { get; set; }
         public DbSet<Clientes> Clientes { get; set; }
         public DbSet<Alugueis> Alugueis { get; set; }
-        public DbSet<JogosConsoles> JogosConsoles { get; set; }
-
-
 
 
 
@@ -52,20 +49,6 @@ namespace LocadoraDejogos.Data
                 .HasOne(j => j.Funcionarios)
                 .WithMany(c => c.Alugueis)
                 .HasForeignKey(j => j.FuncionarioID)
-                .OnDelete(DeleteBehavior.Cascade);
-
-
-
-            modelBuilder.Entity<JogosConsoles>()
-                .HasOne(j => j.Jogos)
-                .WithMany(c => c.JogosConsoles)
-                .HasForeignKey(j => j.JogoID)
-                .OnDelete(DeleteBehavior.Cascade);
-
-            modelBuilder.Entity<JogosConsoles>()
-                .HasOne(j => j.Consoles)
-                .WithMany(c => c.JogosConsoles)
-                .HasForeignKey(j => j.ConsoleID)
                 .OnDelete(DeleteBehavior.Cascade);
         }
     }

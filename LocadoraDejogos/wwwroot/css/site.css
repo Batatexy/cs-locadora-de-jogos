@@ -2,8 +2,10 @@ html {
   font-size: 14px;
 }
 
-@media (min-width: 768px) {
-  html {
+@media (min-width: 768px) 
+{
+  html 
+  {
     font-size: 16px;
   }
 }
@@ -12,18 +14,20 @@ html {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
-html {
+html 
+{
   position: relative;
   min-height: 100%;
 }
 
-body {
-  margin-bottom: 60px;
+body 
+{
+    margin-bottom: 60px;
 }
 
 
 /* Mudar o fundo ao passar o mouse sobre uma linha de um jogo */
-.fundo 
+.fundo
 {
     position: fixed;
     top: 0;
@@ -33,13 +37,25 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    transition: background-image 0.75s ease-in-out, opacity 0.75s ease-in-out;
-    z-index: -1; /* Atrás do conteúdo */
-    opacity: 0; /* Inicialmente invisível */
+    transition: background-image 2s ease-in-out;
+    z-index: -1;
 }
 
-/* Efeito ao passar o mouse */
-.fundo.visible 
+.linha-jogos 
 {
-    opacity: 1;
+    transition: background-color 1s ease-in-out, color 1s ease-in-out;
+    color: white;
+}
+
+/* Ao passar o mouse sobre uma linha, destacar ela */
+.linha-jogos:hover 
+{
+    background-color: white;
+    color: black;
+}
+
+/* Personalizar os botões de edit, details e delete */
+.botoes 
+{
+    position: fixed;
 }

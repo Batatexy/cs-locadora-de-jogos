@@ -6,16 +6,33 @@
 
 <h1>Index</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+<! Botões de edit, detalhes e delete –>
+<div class="botoes">
+    <button>
+        <a asp-action="Create">Adicionar um Jogo</a>
+    </button>
+
+    <button onclick="redirecionarPagina('Jogos','edit')">
+        Editar
+    </button>
+
+    <button onclick="redirecionarPagina('Jogos','details')">
+        Detalhes
+    </button>
+
+    <button onclick="redirecionarPagina('Jogos','delete')">
+        Deletar
+    </button>
+</div>
+
+<br />
+
 <table class="table">
     <thead>
         <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.CapaURL)
+            <th style="text-align:center">
+                Imagem
             </th>
-
             <th>
                 @Html.DisplayNameFor(model => model.Nome)
             </th>
@@ -32,63 +49,67 @@
                 @Html.DisplayNameFor(model => model.Ano)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Unidade)
+                Console
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.JogosConsolesID)
+                Unidades
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Consoles)
+                Preço
             </th>
-            <th></th>
         </tr>
     </thead>
+
     <tbody>
+        @foreach (var item in Model)
+        {
+            <tr class="linha-jogos" data-background-url="@Html.DisplayFor(modelItem => item.FundoURL)" onclick="atualizarItemClickado(@item.ID)">
+                <td style="text-align:center">
 
+                    <a href="@Html.DisplayFor(modelItem => item.LojaURL)">
+                        <img src="@Html.DisplayFor(modelItem => item.CapaURL)" style="width:100px; height:auto;" />
+                    </a>
 
+                </td>
 
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
 
-@foreach (var item in Model) {
-        <tr class="linha" data-background-url="@Html.DisplayFor(modelItem => item.FundoURL)">
-            <td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Desenvolvedor)
+                </td>
 
-                <a href="@Html.DisplayFor(modelItem => item.LojaURL)">
-                    <img src="@Html.DisplayFor(modelItem => item.CapaURL)" style="width:100px; height:auto;" />
-                </a>
-                
-            </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Distribuidora)
+                </td>
 
-            <td>
-                @Html.DisplayFor(modelItem => item.Nome)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Desenvolvedor)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Distribuidora)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Genero)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Ano)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Unidade)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.JogosConsolesID)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Consoles.ID)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
-            </td>
-        </tr>
-}
+                <td>
+                    @Html.DisplayFor(modelItem => item.Genero)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.Ano)
+                </td>
+
+                <td>
+                    <a href="@Html.DisplayFor(modelItem => item.Consoles.WikipediaURL)">
+                        @Html.DisplayFor(modelItem => item.Consoles.Nome)
+                    </a>
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.Unidade)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.Preco)
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
+
+
+
 

@@ -6,9 +6,27 @@
 
 <h1>Index</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+<! Botões de edit, detalhes e delete –>
+<div class="botoes">
+    <button>
+        <a asp-action="Create">Adicionar um Aluguel</a>
+    </button>
+
+    <button onclick="redirecionarPagina('Alugueis','edit')">
+        Editar
+    </button>
+
+    <button onclick="redirecionarPagina('Alugueis','details')">
+        Detalhes
+    </button>
+
+    <button onclick="redirecionarPagina('Alugueis','delete')">
+        Deletar
+    </button>
+</div>
+
+<br />
+
 <table class="table">
     <thead>
         <tr>
@@ -24,24 +42,21 @@
             <th></th>
         </tr>
     </thead>
+
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Clientes.ID)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Jogos.ID)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Funcionarios.ID)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model) 
+        {
+            <tr onclick="atualizarItemClickado(@item.ID)">
+                <td>
+                    @Html.DisplayFor(modelItem => item.Clientes.ID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Jogos.ID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Funcionarios.ID)
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
