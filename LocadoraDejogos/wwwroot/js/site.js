@@ -17,15 +17,22 @@ function retornarItemClickado()
 }
 
 // Função para redirecionar às páginas de editar, detalhes ou deletar
-function redirecionarPagina(tabela, funcao)
+function redirecionarPagina(tabela, funcao, pagina)
 {
-    const id = retornarItemClickado();
-
-    // Redireciona para a página de edição com o ID obtido
-    if (id != null)
+    if (pagina == 0)
     {
-        window.location.href = `/${tabela}/${funcao}/${id}`;
+        window.location.href = `/${tabela}/Create`;
     }
+    else if (pagina == 1)
+    {
+        const id = retornarItemClickado();
+
+        // Redireciona para a página de edição com o ID obtido
+        if (id != null) {
+            window.location.href = `/${tabela}/${funcao}/${id}`;
+        }
+    }
+    
 }
 
 

@@ -110,10 +110,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gabriel Carrascosa/cs-workspace/cs-locadora-de-jogos/LocadoraDejogos/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Gabriel Carrascosa/cs-workspace/cs-locadora-de-jogos/LocadoraDejogos/Views/Jogos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9nb3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -132,6 +128,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Gabriel Carrascosa/cs-workspace/cs-locadora-de-jogos/LocadoraDejogos/Views/Jogos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9nb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabriel Carrascosa/cs-workspace/cs-locadora-de-jogos/LocadoraDejogos/Views/Privacies/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpdmFjaWVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Gabriel Carrascosa/cs-workspace/cs-locadora-de-jogos/LocadoraDejogos/Views/Shared/Error.cshtml]

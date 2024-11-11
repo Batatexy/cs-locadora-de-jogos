@@ -1,14 +1,16 @@
 ﻿@model LocadoraDejogos.Models.Consoles
 
 @{
-    ViewData["Title"] = "Delete";
+    ViewData["Title"] = "Deletar Console";
 }
 
-<h1>Delete</h1>
+<br />
+<br />
+<br />
 
-<h3>Are you sure you want to delete this?</h3>
+<h4>Consoles</h4>
+<h3>Tem certeza que deseja apagar este dado?</h3>
 <div>
-    <h4>Consoles</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -48,10 +50,17 @@
             @Html.DisplayFor(model => model.Ano)
         </dd>
     </dl>
-    
+
     <form asp-action="Delete">
+        <button type="button" class="btn btn-secondary">
+            <a asp-action="Index" class="remove-link">
+                Voltar para Consoles
+            </a>
+        </button>
+
         <input type="hidden" asp-for="ID" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
+        <input type="submit" value="Deletar Console" class="btn btn-danger" />
     </form>
 </div>
+
+<br />

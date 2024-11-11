@@ -1,84 +1,73 @@
 ﻿@model IEnumerable<LocadoraDejogos.Models.Clientes>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Clientes";
 }
 
-<h1>Index</h1>
+<br />
+<br />
 
-<! Botões de edit, detalhes e delete –>
+<! Botões de criar, editar, detalhes e delete –>
 <div class="botoes">
-    <button>
-        <a asp-action="Create">Adicionar um Cliente</a>
+
+    <button type="button" class="btn btn-outline-primary">
+        <h4 class="remove-margin">Clientes</h4>
     </button>
 
-    <button onclick="redirecionarPagina('Clientes','edit')">
+
+    <button type="button" class="btn btn-outline-primary" onclick="redirecionarPagina('Clientes','0', 0)">
+        Adicionar um Cliente
+    </button>
+
+    <button type="button" class="btn btn-outline-primary" onclick="redirecionarPagina('Clientes','edit', 1)">
         Editar
     </button>
 
-    <button onclick="redirecionarPagina('Clientes','details')">
+    <button type="button" class="btn btn-outline-primary" onclick="redirecionarPagina('Clientes','details', 1)">
         Detalhes
     </button>
 
-    <button onclick="redirecionarPagina('Clientes','delete')">
+    <button type="button" class="btn btn-outline-primary" onclick="redirecionarPagina('Clientes','delete', 1)">
         Deletar
     </button>
 </div>
 
 <br />
+<br />
+<br />
 
 <table class="table">
     <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Login)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Senha)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CPF)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Nome)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DataNascimento)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Telefone)
-            </th>
-            <th></th>
-        </tr>
+        <div class="tabela">
+            <ul class="linha remove-margin ">
+                <li>@Html.DisplayNameFor(model => model.Login)</li>
+                <li>@Html.DisplayNameFor(model => model.Senha)</li>
+                <li>@Html.DisplayNameFor(model => model.CPF)</li>
+                <li>@Html.DisplayNameFor(model => model.Nome)</li>
+                <li>@Html.DisplayNameFor(model => model.DataNascimento)</li>
+                <li>@Html.DisplayNameFor(model => model.Telefone)</li>
+            </ul>
+        </div>
     </thead>
 
     <tbody>
         @foreach (var item in Model) {
-                <tr onclick="atualizarItemClickado(@item.ID)">
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Login)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Senha)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.CPF)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Nome)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.DataNascimento)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Telefone)
-                    </td>
-                    <td>
-                        <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
-                        <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
-                        <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
-                    </td>
-                </tr>
+
+            <button type="button" class="btn btn-outline-primary" onclick="atualizarItemClickado(@item.ID)" style="width:100%">
+                <div class="tabela">
+                    <ul class="linha remove-margin">
+                        <li>@Html.DisplayFor(modelItem => item.Login)</li>
+                        <li>@Html.DisplayFor(modelItem => item.Senha)</li>
+                        <li>@Html.DisplayFor(modelItem => item.CPF)</li>
+                        <li>@Html.DisplayFor(modelItem => item.Nome)</li>
+                        <li>@Html.DisplayFor(modelItem => item.DataNascimento)</li>
+                        <li>@Html.DisplayFor(modelItem => item.Telefone)</li>
+                    </ul>
+                </div>
+            </button>
+
+
+
         }
     </tbody>
 </table>

@@ -1,0 +1,61 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) 
+{
+  html 
+  {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html 
+{
+  position: relative;
+  min-height: 100%;
+}
+
+body 
+{
+    margin-bottom: 60px;
+}
+
+
+/* Mudar o fundo ao passar o mouse sobre uma linha de um jogo */
+.fundo
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-image 2s ease-in-out;
+    z-index: -1;
+}
+
+.linha-jogos 
+{
+    transition: background-color 1s ease-in-out, color 1s ease-in-out;
+    color: white;
+}
+
+/* Ao passar o mouse sobre uma linha, destacar ela */
+.linha-jogos:hover 
+{
+    background-color: white;
+    color: black;
+}
+
+/* Personalizar os botões de edit, details e delete */
+.botoes 
+{
+    position: fixed;
+}

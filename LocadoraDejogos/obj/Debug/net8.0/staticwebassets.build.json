@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aKm7YFRSMKHCxFq36XOwH1Ah4sO43Gdpr6qAJPKAQps=",
+  "Hash": "Fpbc12jzqXJ5lExlQRHfuc8NQQUy4PYeqRb9aYCSq44=",
   "Source": "LocadoraDejogos",
   "BasePath": "_content/LocadoraDejogos",
   "Mode": "Default",
@@ -72,6 +72,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\wwwroot\\css\\siteBackup.css",
+      "SourceId": "LocadoraDejogos",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\wwwroot\\",
+      "BasePath": "_content/LocadoraDejogos",
+      "RelativePath": "css/siteBackup.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\siteBackup.css"
     },
     {
       "Identity": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\wwwroot\\favicon.ico",

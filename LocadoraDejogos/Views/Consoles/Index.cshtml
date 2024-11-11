@@ -1,79 +1,81 @@
 ﻿@model IEnumerable<LocadoraDejogos.Models.Consoles>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Consoles";
 }
 
-<h1>Index</h1>
+<br />
+<br />
 
-<! Botões de edit, detalhes e delete –>
+<! Botões de criar, editar, detalhes e delete –>
 <div class="botoes">
-    <button>
-        <a asp-action="Create">Adicionar um Console</a>
+
+    <button type="button" class="btn btn-outline-primary">
+        <h4 class="remove-margin">Consoles</h4>
     </button>
 
-    <button onclick="redirecionarPagina('Consoles','edit')">
+    <button type="button" class="btn btn-outline-primary" onclick="redirecionarPagina('Consoles','0', 0)">
+        Adicionar um Console
+    </button>
+
+    <button type="button" class="btn btn-outline-primary" onclick="redirecionarPagina('Consoles','edit', 1)">
         Editar
     </button>
 
-    <button onclick="redirecionarPagina('Consoles','details')">
+    <button type="button" class="btn btn-outline-primary" onclick="redirecionarPagina('Consoles','details', 1)">
         Detalhes
     </button>
 
-    <button onclick="redirecionarPagina('Consoles','delete')">
+    <button type="button" class="btn btn-outline-primary" onclick="redirecionarPagina('Consoles','delete', 1)">
         Deletar
     </button>
 </div>
 
 <br />
+<br />
+<br />
 
 <table class="table">
     <thead>
-        <tr>
-            <th style="text-align:center">
-                Imagem:
-            </th>
+        <div class="tabela">
+            <ul class="linha remove-margin ">
+                <li style="width:200px; text-align:center">Imagem</li>
+                <li>@Html.DisplayNameFor(model => model.Nome)</li>
+                <li>@Html.DisplayNameFor(model => model.Fabricante)</li>
+                <li>@Html.DisplayNameFor(model => model.Geracao)</li>
+                <li>@Html.DisplayNameFor(model => model.Ano)</li>
+            </ul>
+        </div>
 
-            <th>
-                @Html.DisplayNameFor(model => model.Nome)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Fabricante)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Geracao)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Ano)
-            </th>
-            <th></th>
-        </tr>
+        <hr style="border: 1px solid black; width: 100%;">
+
     </thead>
 
     <tbody>
         @foreach (var item in Model)
         {
-            <tr onclick="atualizarItemClickado(@item.ID)">
-                <td style="text-align:center">
-                    <a href="@Html.DisplayFor(modelItem => item.WikipediaURL)">
-                        <img src="@Html.DisplayFor(modelItem => item.ImagemURL)" style="height:100px; background-size:auto;" />
-                    </a>
 
-                </td>
+            <button type="button" class="btn btn-outline-primary" onclick="atualizarItemClickado(@item.ID)" 
+                    style="width:100%; width:100%; margin-bottom:4px;">
+                <div class="tabela" style="text-align:left;">
 
-                <td>
-                    @Html.DisplayFor(modelItem => item.Nome)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Fabricante)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Geracao)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Ano)
-                </td>
-            </tr>
+                    <ul class="linha remove-margin">
+                        <li style="text-align:center; width:200px;">
+                            <a href="@Html.DisplayFor(modelItem => item.WikipediaURL)">
+                                <img src="@Html.DisplayFor(modelItem => item.ImagemURL)"
+                                     style="height:100px; background-size:auto;" />
+                            </a>
+                        </li>
+                        <li>@Html.DisplayFor(modelItem => item.Nome)</li>
+                        <li>@Html.DisplayFor(modelItem => item.Fabricante)</li>
+                        <li>@Html.DisplayFor(modelItem => item.Geracao)</li>
+                        <li>@Html.DisplayFor(modelItem => item.Ano)</li>
+                    </ul>
+
+                </div>
+            </button>
+
+
         }
     </tbody>
 </table>

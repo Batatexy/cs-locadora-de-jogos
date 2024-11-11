@@ -13,74 +13,84 @@
 
 <body>
     <header style="position: fixed; width:100%">
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">LocadoraDejogos</a>
-
-
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                <div class="collapse navbar-collapse" id="navbarColor01">
 
 
 
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav me-auto">
 
-                    <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+
+
+                        <li class=" = " nav-item" />
+                        <a class="nav-link" asp-area="" asp-controller="Privacies" aso-action="Index">
+                            <i class=" = " tabindex=" bi-book"> Privacy</i>
+                        </a>
                         </li>
 
 
 
                         <li class=" = " nav-item" />
-                            <a class="nav-link" asp-area="" asp-controller="Jogos" aso-action="Index">
+                        <a class="nav-link" asp-area="" asp-controller="Jogos" aso-action="Index">
                             <i class=" = " tabindex=" bi-book"> Jogos</i>
-                            </a>
+                        </a>
                         </li>
 
 
 
                         <li class=" = " nav-item" />
-                            <a class="nav-link" asp-area="" asp-controller="Consoles" aso-action="Index">
+                        <a class="nav-link" asp-area="" asp-controller="Consoles" aso-action="Index">
                             <i class=" = " tabindex=" bi-book"> Consoles</i>
-                            </a>
+                        </a>
                         </li>
 
 
 
                         <li class=" = " nav-item" />
-                            <a class="nav-link" asp-area="" asp-controller="Clientes" aso-action="Index">
+                        <a class="nav-link" asp-area="" asp-controller="Clientes" aso-action="Index">
                             <i class=" = " tabindex=" bi-book"> Clientes</i>
-                            </a>
+                        </a>
                         </li>
 
 
 
                         <li class=" = " nav-item" />
-                            <a class="nav-link" asp-area="" asp-controller="Funcionarios" aso-action="Index">
+                        <a class="nav-link" asp-area="" asp-controller="Funcionarios" aso-action="Index">
                             <i class=" = " tabindex=" bi-book"> Funcionários</i>
-                            </a>
+                        </a>
                         </li>
 
 
 
                         <li class=" = " nav-item" />
-                            <a class="nav-link" asp-area="" asp-controller="Alugueis" aso-action="Index">
+                        <a class="nav-link" asp-area="" asp-controller="Alugueis" aso-action="Index">
                             <i class=" = " tabindex=" bi-book"> Alugueis</i>
-                            </a>
+                        </a>
                         </li>
+
+
+
 
                     </ul>
 
+
+
+                    <form class="d-flex">
+                        <input class="form-control me-sm-2" type="search" placeholder="Search">
+                        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                    </form>
                 </div>
             </div>
         </nav>
+
     </header>
 
 
@@ -89,7 +99,10 @@
         
     </div>
 
-    <div class="container">
+    <br />
+
+    <div class="container" sytle="flex: 1;">
+       
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
@@ -97,7 +110,7 @@
 
 
 
-    <footer class="border-top footer text-muted">
+    <footer class="border-top text-muted newFooter">
         <div class="container">
             &copy; 2024 - LocadoraDejogos - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>

@@ -1,10 +1,12 @@
 ﻿@model LocadoraDejogos.Models.Funcionarios
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Detalhes";
 }
 
-<h1>Details</h1>
+<br />
+<br />
+<br />
 
 <div>
     <h4>Funcionarios</h4>
@@ -42,7 +44,21 @@
         </dd>
     </dl>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.ID">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+
+<div class="form-group">
+
+    <button type="button" class="btn btn-secondary">
+        <a asp-action="Index" class="remove-link">
+            Voltar para Funcionários
+        </a>
+    </button>
+
+
+    <button type="button" class="btn btn-info">
+        <a asp-action="Edit" asp-route-id="@Model?.ID" style="color: inherit; text-decoration: none;">Editar Funcionário</a>
+    </button>
 </div>
+
+<br />
+
+

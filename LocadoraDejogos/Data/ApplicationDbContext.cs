@@ -51,5 +51,6 @@ namespace LocadoraDejogos.Data
                 .HasForeignKey(j => j.FuncionarioID)
                 .OnDelete(DeleteBehavior.Cascade);
         }
+        public DbSet<LocadoraDejogos.Models.Privacy> Privacy { get; set; } = default!;
     }
 }
