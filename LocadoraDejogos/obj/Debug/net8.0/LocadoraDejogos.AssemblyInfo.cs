@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LocadoraDejogos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d276fff3d9ab26237098db2f8cedd0dc07efa34a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f0788cf6c4014795e81d29d81020d9184012972")]
 [assembly: System.Reflection.AssemblyProductAttribute("LocadoraDejogos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LocadoraDejogos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

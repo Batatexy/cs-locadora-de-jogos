@@ -9,7 +9,6 @@
 
 <! Botões de criar, editar, detalhes e delete –>
 <div class="botoes">
-
     <button type="button" class="btn btn-outline-primary">
         <h4 class="remove-margin">Consoles</h4>
     </button>
@@ -54,7 +53,6 @@
     <tbody>
         @foreach (var item in Model)
         {
-
             <button type="button" class="btn btn-outline-primary" onclick="atualizarItemClickado(@item.ID)" 
                     style="width:100%; margin-bottom:4px;">
                 <div class="tabela consoles">
@@ -73,9 +71,6 @@
 
                 </div>
             </button>
-
-
         }
     </tbody>
 </table>
-

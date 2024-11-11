@@ -9,11 +9,9 @@
 
 <! Botões de criar, editar, detalhes e delete –>
 <div class="botoes">
-
     <button type="button" class="btn btn-outline-primary">
         <h4 class="remove-margin">Clientes</h4>
     </button>
-
 
     <button type="button" class="btn btn-outline-primary" onclick="redirecionarPagina('Clientes','0', 0)">
         Adicionar um Cliente
@@ -51,8 +49,8 @@
     </thead>
 
     <tbody>
-        @foreach (var item in Model) {
-
+        @foreach (var item in Model) 
+        {
             <button type="button" class="btn btn-outline-primary" onclick="atualizarItemClickado(@item.ID)" style="width:100%">
                 <div class="tabela clientes">
                     <ul class="linha remove-margin">
@@ -65,9 +63,6 @@
                     </ul>
                 </div>
             </button>
-
-
-
         }
     </tbody>
 </table>

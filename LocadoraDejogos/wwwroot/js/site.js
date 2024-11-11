@@ -32,10 +32,7 @@ function redirecionarPagina(tabela, funcao, pagina)
             window.location.href = `/${tabela}/${funcao}/${id}`;
         }
     }
-    
 }
-
-
 
 // Seleciona todas as linhas da tabela
 document.querySelectorAll('.linha-jogos').forEach(row =>
@@ -47,7 +44,6 @@ document.querySelectorAll('.linha-jogos').forEach(row =>
         const fundoElement = document.querySelector('.fundo');
 
         console.log("imageTimer", imageTimer);
-
 
         // Define o fundo e torna ele visível
         // Ainda com problemas, desenvolver um timer para não ocorrer o bug de passar o mouse por diversos jogos e o fundo ficar piscando

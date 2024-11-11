@@ -203,121 +203,6 @@
   }
 }
 
-
-
-
-
-/* Mudar o fundo ao passar o mouse sobre uma linha de um jogo */
-.fundo {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: background-image 2s ease-in-out;
-    z-index: -1;
-}
-
-.linha-jogos 
-{
-    transition: background-color 1s ease-in-out, color 1s ease-in-out;
-}
-
-
-/* Personalizar os botões de edit, details e delete */
-.botoes 
-{
-    position: fixed;
-}
-
-
-.tabela 
-{
-    text-align: center
-}
-/* Transformar uma lista em uma tabela */
-    .tabela li 
-    {
-        width: 100%;
-    }
-
-.linha 
-{
-    display: flex;
-    list-style: none;
-}
-
-.remove-margin 
-{
-    margin:0; 
-    padding:0; 
-    border:0;
-}
-
-.remove-link {
-    color: inherit;
-    text-decoration: none;
-}
-
-.remove-link:hover {
-    color: orange;
-}
-
-
-
-
-
-
-
-.carousel-container {
-    overflow: hidden;
-    border-radius: 10px;
-    margin: 20px auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.carousel-track 
-{
-    display: flex;
-    
-}
-
-    .carousel-track img {
-        height: 500px;
-        animation: slide 2000s linear infinite;
-    }
-
-
-
-/* Animação do carrossel */
-@keyframes slide 
-{
-    0% {
-        transform: translateX(0);
-    }
-
-
-    50% {
-        transform: translateX(-5500%);
-    }
-
-    100% {
-        transform: translateX(0);
-    }
-}
-
-
-
-
-
-
-
-
-
-
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -12568,4 +12453,107 @@ pre {
 
 .img-thumbnail {
   border-radius: 255px 25px 225px 25px/25px 225px 25px 255px;
+}
+
+
+
+/* Customizações adicionais */
+
+/* Mudar o fundo ao passar o mouse sobre uma linha de um jogo */
+.fundo 
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-image 2s ease-in-out;
+    z-index: -1;
+}
+
+.linha-jogos 
+{
+    transition: background-color 1s ease-in-out, color 1s ease-in-out;
+}
+
+/* Personalizar os botões de edit, details e delete */
+.botoes 
+{
+    position: fixed;
+}
+
+.tabela 
+{
+    text-align: center
+}
+
+/* Transformar uma lista em uma tabela */
+.tabela li 
+{
+    width: 100%;
+}
+
+.linha 
+{
+    display: flex;
+    list-style: none;
+}
+
+.remove-margin 
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.remove-link 
+{
+    color: inherit;
+    text-decoration: none;
+}
+
+.remove-link:hover 
+{
+    color: orange;
+}
+
+.carousel-container 
+{
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-track 
+{
+    display: flex;
+}
+
+.carousel-track img 
+{
+    height: 500px;
+    animation: slide 2000s linear infinite;
+}
+
+/* Animação do carrossel */
+@keyframes slide 
+{
+    0% 
+    {
+        transform: translateX(0);
+    }
+
+    50% 
+    {
+        transform: translateX(-5500%);
+    }
+
+    100% 
+    {
+        transform: translateX(0);
+    }
 }

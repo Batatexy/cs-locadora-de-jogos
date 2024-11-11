@@ -1,7 +1,3 @@
-//Tlou ID
-//1009
-
-
 using IGDB;
 using IGDB.Models;
 using LocadoraDejogos;
@@ -9,7 +5,6 @@ using LocadoraDejogos.Data;
 using LocadoraDejogos.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Composition;
-
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -37,12 +32,4 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
-
-
-
-
 app.Run();
-
-
-
-
