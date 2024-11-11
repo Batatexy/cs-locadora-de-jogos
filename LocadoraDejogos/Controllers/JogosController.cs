@@ -48,7 +48,7 @@ namespace LocadoraDejogos.Controllers
         // GET: Jogos/Create
         public IActionResult Create()
         {
-            ViewData["ConsoleID"] = new SelectList(_context.Consoles, "ID", "ID");
+            ViewData["ConsoleID"] = new SelectList(_context.Consoles, "ID", "Nome");
             return View();
         }
 

@@ -50,9 +50,9 @@ namespace LocadoraDejogos.Controllers
         // GET: Alugueis/Create
         public IActionResult Create()
         {
-            ViewData["ClienteID"] = new SelectList(_context.Clientes, "ID", "ID");
-            ViewData["FuncionarioID"] = new SelectList(_context.Funcionarios, "ID", "ID");
-            ViewData["JogoID"] = new SelectList(_context.Jogos, "ID", "ID");
+            ViewData["ClienteID"] = new SelectList(_context.Clientes, "ID", "Nome");
+            ViewData["FuncionarioID"] = new SelectList(_context.Funcionarios, "ID", "Nome");
+            ViewData["JogoID"] = new SelectList(_context.Jogos, "ID", "Nome");
             return View();
         }
 
