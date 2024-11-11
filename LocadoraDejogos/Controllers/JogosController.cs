@@ -25,7 +25,7 @@ namespace LocadoraDejogos.Controllers
             var applicationDbContext = _context.Jogos.Include(j => j.Consoles);
             return View(await applicationDbContext.ToListAsync());
         }
-
+        
         // GET: Jogos/Details/5
         public async Task<IActionResult> Details(int? id)
         {

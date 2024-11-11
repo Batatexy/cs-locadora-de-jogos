@@ -38,7 +38,7 @@
 
 <table class="table">
        
-        <div class="tabela">
+        <div class="tabela alugueis">
             <ul class="linha remove-margin ">
                 <li>@Html.DisplayNameFor(model => model.Clientes)</li>
                 <li>@Html.DisplayNameFor(model => model.Jogos)</li>
@@ -49,7 +49,7 @@
         @foreach (var item in Model) 
         {
             <button type="button" class="btn btn-outline-primary" onclick="atualizarItemClickado(@item.ID)" style="width:100%">
-                <div class="tabela">
+                <div class="tabela alugueis">
                     <ul class="linha remove-margin">
                         <li>@Html.DisplayFor(modelItem => item.Clientes.Nome)</li>
                         <li>@Html.DisplayFor(modelItem => item.Jogos.Nome)</li>

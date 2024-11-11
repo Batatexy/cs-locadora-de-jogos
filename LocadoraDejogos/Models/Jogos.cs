@@ -47,7 +47,7 @@ namespace LocadoraDejogos.Models
         public int? Unidade { get; set; }
 
         [DisplayName("Preço")]
-        public int? Preco { get; set; }
+        public float? Preco { get; set; }
 
 
 

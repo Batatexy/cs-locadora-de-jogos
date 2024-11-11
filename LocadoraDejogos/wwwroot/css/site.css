@@ -234,19 +234,21 @@
 }
 
 
+.tabela 
+{
+    text-align: center
+}
+/* Transformar uma lista em uma tabela */
+    .tabela li 
+    {
+        width: 100%;
+    }
 
-
-/* Estilos para cada linha (cabeçalho e conteúdo) */
-.linha {
+.linha 
+{
     display: flex;
     list-style: none;
 }
-
-    .linha li {
-        margin-right: 60px;
-    }
-
-
 
 .remove-margin 
 {
@@ -263,6 +265,56 @@
 .remove-link:hover {
     color: orange;
 }
+
+
+
+
+
+
+
+.carousel-container {
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-track 
+{
+    display: flex;
+    
+}
+
+    .carousel-track img {
+        height: 500px;
+        animation: slide 2000s linear infinite;
+    }
+
+
+
+/* Animação do carrossel */
+@keyframes slide 
+{
+    0% {
+        transform: translateX(0);
+    }
+
+
+    50% {
+        transform: translateX(-5500%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+
+
+
+
+
 
 
 

@@ -4,7 +4,7 @@
     ViewData["Title"] = "Jogos";
 }
 
-<br /> 
+<br />
 <br />
 
 <! Botões de criar, editar, detalhes e delete –>
@@ -13,7 +13,7 @@
     <button type="button" class="btn btn-outline-primary">
         <h4 class="remove-margin">Jogos</h4>
     </button>
-    
+
 
     <button type="button" class="btn btn-outline-primary" onclick="redirecionarPagina('Jogos','0', 0)">
         Adicionar um Jogo
@@ -36,23 +36,40 @@
 <br />
 <br />
 
+
+
+
+
+
+
+<table class="table table-hover tabela">
+<thead >
+        <div class="tabela jogos" 
+            style="margin-left:2.5%; margin-right:2.5%; background-color:white; padding:1%; 
+border-radius: 10px;
+  border: 2px solid black;
+" >
+        <ul class="linha remove-margin">
+            <li style="padding-left: 1%;">Imagem</li>
+            <li>@Html.DisplayNameFor(model => model.Nome)</li>
+            <li style="padding-left: 2%;">@Html.DisplayNameFor(model => model.Desenvolvedor)</li>
+            <li>@Html.DisplayNameFor(model => model.Distribuidora)</li>
+            <li>@Html.DisplayNameFor(model => model.Genero)</li>
+            <li>@Html.DisplayNameFor(model => model.Ano)</li>
+            <li>Console</li>
+            <li >Unidades</li>
+            <li>Preço</li>
+            <li>Alugar</li>
+        </ul>
+    </div>
+</thead>
+
+
 <table class="table">
     <thead>
-        <div class="tabela">
-            <ul class="linha remove-margin ">
-                <li>@Html.DisplayNameFor(model => model.Nome)</li>
-                <li>@Html.DisplayNameFor(model => model.Desenvolvedor)</li>
-                <li>@Html.DisplayNameFor(model => model.Distribuidora)</li>
-                <li>@Html.DisplayNameFor(model => model.Genero)</li>
-                <li>@Html.DisplayNameFor(model => model.Ano)</li>
-                <li>Console</li>
-                <li>Unidades</li>
-                <li>Preço</li>
-            </ul>
-        </div>
 
-        <hr style="border: 1px solid black; width: 100%;">
-    
+        
+
     </thead>
 
     <tbody>
@@ -62,12 +79,12 @@
                     data-background-url="@Html.DisplayFor(modelItem => item.FundoURL)" onclick="atualizarItemClickado(@item.ID"
                     style="width:100%; margin-bottom:4px;">
 
-                <div class="tabela">
+                <div class="tabela jogos">
                     <br />
                     <ul class="linha">
                         <li>
                             <a href="@Html.DisplayFor(modelItem => item.LojaURL)">
-                                <img src="@Html.DisplayFor(modelItem => item.CapaURL)" style="width:100px; height:auto;" />
+                                <img src="@Html.DisplayFor(modelItem => item.CapaURL)" style="width:80%;" />
                             </a>
                         </li>
                         <li>@Html.DisplayFor(modelItem => item.Nome)</li>
@@ -75,19 +92,24 @@
                         <li>@Html.DisplayFor(modelItem => item.Distribuidora)</li>
                         <li>@Html.DisplayFor(modelItem => item.Genero)</li>
                         <li>@Html.DisplayFor(modelItem => item.Ano)</li>
-                        <li >
+                        <li>
                             <a href="@Html.DisplayFor(modelItem => item.Consoles.WikipediaURL)" class="remove-link">
                                 @Html.DisplayFor(modelItem => item.Consoles.Nome)
                             </a>
                         </li>
                         <li>@Html.DisplayFor(modelItem => item.Unidade)</li>
-                        <li>@Html.DisplayFor(modelItem => item.Preco)</li>
+                        <li>R$@Html.DisplayFor(modelItem => item.Preco)</li>
+                        <li class="remove-margin">                           
+                            <img src="https://seeklogo.com/images/C/Carrinho_de_Compras-logo-F251151A71-seeklogo.com.png"
+                                 style="width:70px; height:auto;" type="button" class="btn btn-success" />
+                        </li>
                     </ul>
                 </div>
             </button>
         }
     </tbody>
 </table>
+
 
 
 

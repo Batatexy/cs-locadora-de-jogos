@@ -37,9 +37,9 @@
 
 <table class="table">
     <thead>
-        <div class="tabela">
+        <div class="tabela consoles">
             <ul class="linha remove-margin ">
-                <li style="width:200px; text-align:center">Imagem</li>
+                <li>Imagem</li>
                 <li>@Html.DisplayNameFor(model => model.Nome)</li>
                 <li>@Html.DisplayNameFor(model => model.Fabricante)</li>
                 <li>@Html.DisplayNameFor(model => model.Geracao)</li>
@@ -56,11 +56,10 @@
         {
 
             <button type="button" class="btn btn-outline-primary" onclick="atualizarItemClickado(@item.ID)" 
-                    style="width:100%; width:100%; margin-bottom:4px;">
-                <div class="tabela" style="text-align:left;">
-
+                    style="width:100%; margin-bottom:4px;">
+                <div class="tabela consoles">
                     <ul class="linha remove-margin">
-                        <li style="text-align:center; width:200px;">
+                        <li>
                             <a href="@Html.DisplayFor(modelItem => item.WikipediaURL)">
                                 <img src="@Html.DisplayFor(modelItem => item.ImagemURL)"
                                      style="height:100px; background-size:auto;" />

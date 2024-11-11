@@ -38,7 +38,7 @@
 
 <table class="table">
     <thead>
-        <div class="tabela">
+        <div class="tabela clientes">
             <ul class="linha remove-margin ">
                 <li>@Html.DisplayNameFor(model => model.Login)</li>
                 <li>@Html.DisplayNameFor(model => model.Senha)</li>
@@ -54,7 +54,7 @@
         @foreach (var item in Model) {
 
             <button type="button" class="btn btn-outline-primary" onclick="atualizarItemClickado(@item.ID)" style="width:100%">
-                <div class="tabela">
+                <div class="tabela clientes">
                     <ul class="linha remove-margin">
                         <li>@Html.DisplayFor(modelItem => item.Login)</li>
                         <li>@Html.DisplayFor(modelItem => item.Senha)</li>
