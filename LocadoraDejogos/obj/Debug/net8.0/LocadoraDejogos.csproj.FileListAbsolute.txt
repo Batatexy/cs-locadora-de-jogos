@@ -261,3 +261,11 @@ C:\Users\Gabriel Carrascosa\cs-workspace\cs-locadora-de-jogos\LocadoraDejogos\ob
 C:\Users\Gabriel Carrascosa\cs-workspace\cs-locadora-de-jogos\LocadoraDejogos\obj\Debug\net8.0\ref\LocadoraDejogos.dll
 C:\Users\Gabriel Carrascosa\cs-workspace\cs-locadora-de-jogos\LocadoraDejogos\bin\Debug\net8.0\IGDB.dll
 C:\Users\Gabriel Carrascosa\cs-workspace\cs-locadora-de-jogos\LocadoraDejogos\bin\Debug\net8.0\RestEase.dll
+C:\Users\Gabriel Carrascosa\cs-workspace\cs-locadora-de-jogos\LocadoraDejogos\bin\Debug\net8.0\ClosedXML.dll
+C:\Users\Gabriel Carrascosa\cs-workspace\cs-locadora-de-jogos\LocadoraDejogos\bin\Debug\net8.0\ClosedXML.Parser.dll
+C:\Users\Gabriel Carrascosa\cs-workspace\cs-locadora-de-jogos\LocadoraDejogos\bin\Debug\net8.0\DocumentFormat.OpenXml.dll
+C:\Users\Gabriel Carrascosa\cs-workspace\cs-locadora-de-jogos\LocadoraDejogos\bin\Debug\net8.0\DocumentFormat.OpenXml.Framework.dll
+C:\Users\Gabriel Carrascosa\cs-workspace\cs-locadora-de-jogos\LocadoraDejogos\bin\Debug\net8.0\ExcelNumberFormat.dll
+C:\Users\Gabriel Carrascosa\cs-workspace\cs-locadora-de-jogos\LocadoraDejogos\bin\Debug\net8.0\RBush.dll
+C:\Users\Gabriel Carrascosa\cs-workspace\cs-locadora-de-jogos\LocadoraDejogos\bin\Debug\net8.0\SixLabors.Fonts.dll
+C:\Users\Gabriel Carrascosa\cs-workspace\cs-locadora-de-jogos\LocadoraDejogos\bin\Debug\net8.0\System.IO.Packaging.dll

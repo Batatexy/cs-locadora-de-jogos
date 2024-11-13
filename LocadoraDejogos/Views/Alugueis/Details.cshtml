@@ -35,16 +35,17 @@
 
 <div class="form-group">
 
-    <button type="button" class="btn btn-secondary">
-        <a asp-action="Index" class="remove-link">
+    <a asp-action="Index" class="remove-link">
+        <button type="button" class="btn btn-secondary">
             Voltar para Alugueis
-        </a>
-    </button>
+        </button>
+    </a>
 
-
-    <button type="button" class="btn btn-info">
-        <a asp-action="Edit" asp-route-id="@Model?.ID" style="color: inherit; text-decoration: none;">Editar Aluguel</a>
-    </button>
+    <a asp-action="Edit" asp-route-id="@Model?.ID" style="color: inherit; text-decoration: none;">
+        <button type="button" class="btn btn-info">
+            Editar Aluguel
+        </button>
+    </a>
 </div>
 
 <br />

@@ -1,6 +1,12 @@
+using ClosedXML.Excel;
+using DocumentFormat.OpenXml.InkML;
 using LocadoraDejogos.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
+using System.IO;
+
+using LocadoraDejogos.Data;
 
 namespace LocadoraDejogos.Controllers
 {

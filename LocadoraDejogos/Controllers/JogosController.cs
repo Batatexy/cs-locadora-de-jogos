@@ -7,11 +7,93 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using LocadoraDejogos.Data;
 using LocadoraDejogos.Models;
+using ClosedXML.Excel;
+using DocumentFormat.OpenXml.Spreadsheet;
 
 namespace LocadoraDejogos.Controllers
 {
     public class JogosController : Controller
     {
+        public async Task<IActionResult> ExportarJogosExcel()
+        {
+            var item = await _context.Jogos.ToListAsync();
+            var workbook = new XLWorkbook();
+            var worksheet = workbook.Worksheets.Add("Jogos");
+            worksheet.Cell(1, 1).Value = "Tabela Jogos";
+
+            // Define a última linha e coluna com base nos dados
+            int ultimaLinha = item.Count + 2;
+            int ultimaColuna = 9;
+
+            // Borda externa e pintar o fundo inteiro de branco
+            var tabelaRange = worksheet.Range(1, 1, ultimaLinha, ultimaColuna);
+            tabelaRange.Style.Border.OutsideBorder = XLBorderStyleValues.Thin;
+            tabelaRange.Style.Fill.BackgroundColor=XLColor.White;
+
+            // Depois de pintar toda a tabela de branca, pintar cabeçalho de uma outra cor:
+            // Mudar cor do Cabeçalho
+            worksheet.Cell(1, 1).Style.Font.FontColor=XLColor.White;
+            worksheet.Cell(1, 1).Style.Fill.BackgroundColor=XLColor.RedNcs;
+
+            // Mudar tamanho da fonte e outras configurações de formatação
+            worksheet.Cell(1, 1).Style.Font.FontSize=20;
+            worksheet.Row(1).Height = 20;
+
+            worksheet.Range(1, 1,1,ultimaColuna).Style.Alignment.Vertical=XLAlignmentVerticalValues.Center;
+            worksheet.Range(1, 1,1,ultimaColuna).Merge().Style.Alignment.Horizontal=XLAlignmentHorizontalValues.Center;
+
+            using (workbook)
+            {
+                // Cabeçalho
+                worksheet.Cell(2, 1).Value = "ID";
+                worksheet.Cell(2, 2).Value = "Nome";
+                worksheet.Cell(2, 3).Value = "Desenvolvedor";
+                worksheet.Cell(2, 4).Value = "Distribuidora";
+                worksheet.Cell(2, 5).Value = "Gênero";
+                worksheet.Cell(2, 6).Value = "Ano de Lançamento";
+                worksheet.Cell(2, 7).Value = "Console";
+                worksheet.Cell(2, 8).Value = "Unidades";
+                worksheet.Cell(2, 9).Value = "Preço";
+
+                // Dados
+                for (int i = 0; i < item.Count; i++)
+                {
+                    worksheet.Cell(i + 3, 1).Value = item[i].ID;
+                    worksheet.Cell(i + 3, 2).Value = item[i].Nome;
+                    worksheet.Cell(i + 3, 3).Value = item[i].Desenvolvedor;
+                    worksheet.Cell(i + 3, 4).Value = item[i].Distribuidora;
+                    worksheet.Cell(i + 3, 5).Value = item[i].Genero;
+                    worksheet.Cell(i + 3, 6).Value = item[i].Ano;
+                    worksheet.Cell(i + 3, 7).Value = item[i].ConsoleID;
+                    worksheet.Cell(i + 3, 8).Value = item[i].Unidade;
+                    worksheet.Cell(i + 3, 9).Value = "R$" + item[i].Preco;
+
+                    // Arrumar algumas colunas
+                    worksheet.Cell(i + 3, 9).Style.NumberFormat.Format = "0.00"; 
+                    worksheet.Cell(i + 3, 1).Style.Alignment.Horizontal=XLAlignmentHorizontalValues.Center;
+                    worksheet.Cell(i + 3, 6).Style.Alignment.Horizontal=XLAlignmentHorizontalValues.Center;
+                    worksheet.Cell(i + 3, 7).Style.Alignment.Horizontal=XLAlignmentHorizontalValues.Center;
+                    worksheet.Cell(i + 3, 8).Style.Alignment.Horizontal=XLAlignmentHorizontalValues.Center;
+
+                    // Adicionar apenas bordas horizontais internas (remove verticais internas)
+                    for (int j = 1; j <= ultimaColuna; j++)
+                    {
+                        worksheet.Cell(i + 2, j).Style.Border.BottomBorder = XLBorderStyleValues.Thin;
+                        worksheet.Cell(i + 2, j).Style.Border.TopBorder = XLBorderStyleValues.Thin;
+                    }
+                }
+
+                worksheet.Columns().AdjustToContents();
+
+                using (var stream = new MemoryStream())
+                {
+                    workbook.SaveAs(stream);
+                    var content = stream.ToArray();
+                    return File(content, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "Tabela Jogos.xlsx");
+                }
+            }
+        }
+
         private readonly ApplicationDbContext _context;
 
         public JogosController(ApplicationDbContext context)

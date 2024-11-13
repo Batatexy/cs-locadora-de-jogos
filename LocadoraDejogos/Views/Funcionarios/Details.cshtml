@@ -47,16 +47,17 @@
 
 <div class="form-group">
 
-    <button type="button" class="btn btn-secondary">
-        <a asp-action="Index" class="remove-link">
+    <a asp-action="Index" class="remove-link">
+        <button type="button" class="btn btn-secondary">
             Voltar para Funcionários
-        </a>
-    </button>
+        </button>
+    </a>
 
-
-    <button type="button" class="btn btn-info">
-        <a asp-action="Edit" asp-route-id="@Model?.ID" style="color: inherit; text-decoration: none;">Editar Funcionário</a>
-    </button>
+    <a asp-action="Edit" asp-route-id="@Model?.ID" style="color: inherit; text-decoration: none;">
+        <button type="button" class="btn btn-info">
+            Editar Funcionário
+        </button>
+    </a>
 </div>
 
 <br />

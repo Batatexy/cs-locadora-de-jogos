@@ -27,11 +27,12 @@
                 <select asp-for="FuncionarioID" class ="form-control" asp-items="ViewBag.FuncionarioID"></select>
             </div>
             <div class="form-group" style="margin-top:6px">
-                <button type="button" class="btn btn-secondary">
-                    <a asp-action="Index" class="remove-link">
-                        Voltar para Alugueis
-                    </a>
-                </button>
+
+                <a asp-action="Index" class="remove-link">
+                    <button type="button" class="btn btn-secondary">
+                            Voltar para Alugueis
+                    </button>
+                </a>
 
                 <input type="submit" value="Adicionar Aluguel" class="btn btn-success" />
             </div>
