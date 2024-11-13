@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|c:\\users\\gabriel carrascosa\\cs-workspace\\cs-locadora-de-jogos\\locadoradejogos\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|solutionrelative:locadoradejogos\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|c:\\users\\gabriel carrascosa\\cs-workspace\\cs-locadora-de-jogos\\locadoradejogos\\views\\jogos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|solutionrelative:locadoradejogos\\views\\jogos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|c:\\users\\gabriel carrascosa\\cs-workspace\\cs-locadora-de-jogos\\locadoradejogos\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|solutionrelative:locadoradejogos\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|c:\\users\\gabriel carrascosa\\cs-workspace\\cs-locadora-de-jogos\\locadoradejogos\\views\\alugueis\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|solutionrelative:locadoradejogos\\views\\alugueis\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|c:\\users\\gabriel carrascosa\\cs-workspace\\cs-locadora-de-jogos\\locadoradejogos\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|solutionrelative:locadoradejogos\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|c:\\users\\gabriel carrascosa\\cs-workspace\\cs-locadora-de-jogos\\locadoradejogos\\views\\consoles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|solutionrelative:locadoradejogos\\views\\consoles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|c:\\users\\gabriel carrascosa\\cs-workspace\\cs-locadora-de-jogos\\locadoradejogos\\views\\funcionarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|solutionrelative:locadoradejogos\\views\\funcionarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|c:\\users\\gabriel carrascosa\\cs-workspace\\cs-locadora-de-jogos\\locadoradejogos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|solutionrelative:locadoradejogos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -19,16 +47,8 @@
       "RelativeMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|solutionrelative:locadoradejogos\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|c:\\users\\gabriel carrascosa\\cs-workspace\\cs-locadora-de-jogos\\locadoradejogos\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|solutionrelative:locadoradejogos\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|c:\\users\\gabriel carrascosa\\cs-workspace\\cs-locadora-de-jogos\\locadoradejogos\\views\\privacies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|solutionrelative:locadoradejogos\\views\\privacies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|c:\\users\\gabriel carrascosa\\cs-workspace\\cs-locadora-de-jogos\\locadoradejogos\\views\\jogos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|solutionrelative:locadoradejogos\\views\\jogos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|c:\\users\\gabriel carrascosa\\cs-workspace\\cs-locadora-de-jogos\\locadoradejogos\\views\\jogos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -47,14 +67,6 @@
       "RelativeMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|solutionrelative:locadoradejogos\\views\\jogos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|c:\\users\\gabriel carrascosa\\cs-workspace\\cs-locadora-de-jogos\\locadoradejogos\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|solutionrelative:locadoradejogos\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|c:\\users\\gabriel carrascosa\\cs-workspace\\cs-locadora-de-jogos\\locadoradejogos\\views\\funcionarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|solutionrelative:locadoradejogos\\views\\funcionarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|c:\\users\\gabriel carrascosa\\cs-workspace\\cs-locadora-de-jogos\\locadoradejogos\\views\\funcionarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|solutionrelative:locadoradejogos\\views\\funcionarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -71,10 +83,6 @@
       "RelativeMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|solutionrelative:locadoradejogos\\views\\funcionarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|c:\\users\\gabriel carrascosa\\cs-workspace\\cs-locadora-de-jogos\\locadoradejogos\\views\\consoles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|solutionrelative:locadoradejogos\\views\\consoles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|c:\\users\\gabriel carrascosa\\cs-workspace\\cs-locadora-de-jogos\\locadoradejogos\\views\\consoles\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|solutionrelative:locadoradejogos\\views\\consoles\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -89,10 +97,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|c:\\users\\gabriel carrascosa\\cs-workspace\\cs-locadora-de-jogos\\locadoradejogos\\views\\consoles\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|solutionrelative:locadoradejogos\\views\\consoles\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|c:\\users\\gabriel carrascosa\\cs-workspace\\cs-locadora-de-jogos\\locadoradejogos\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|solutionrelative:locadoradejogos\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|c:\\users\\gabriel carrascosa\\cs-workspace\\cs-locadora-de-jogos\\locadoradejogos\\views\\clientes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -125,10 +129,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|c:\\users\\gabriel carrascosa\\cs-workspace\\cs-locadora-de-jogos\\locadoradejogos\\views\\alugueis\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|solutionrelative:locadoradejogos\\views\\alugueis\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|c:\\users\\gabriel carrascosa\\cs-workspace\\cs-locadora-de-jogos\\locadoradejogos\\views\\alugueis\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|solutionrelative:locadoradejogos\\views\\alugueis\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A35DA306-9894-408D-9FAF-55233E9103A7}|LocadoraDejogos\\LocadoraDejogos.csproj|c:\\users\\gabriel carrascosa\\cs-workspace\\cs-locadora-de-jogos\\locadoradejogos\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -194,95 +194,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Jogos\\Create.cshtml",
-              "RelativeDocumentMoniker": "LocadoraDejogos\\Views\\Jogos\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Jogos\\Create.cshtml",
-              "RelativeToolTip": "LocadoraDejogos\\Views\\Jogos\\Create.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAEgAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T13:37:32.867Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Jogos\\Delete.cshtml",
-              "RelativeDocumentMoniker": "LocadoraDejogos\\Views\\Jogos\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Jogos\\Delete.cshtml",
-              "RelativeToolTip": "LocadoraDejogos\\Views\\Jogos\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T13:37:38.562Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Jogos\\Details.cshtml",
-              "RelativeDocumentMoniker": "LocadoraDejogos\\Views\\Jogos\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Jogos\\Details.cshtml",
-              "RelativeToolTip": "LocadoraDejogos\\Views\\Jogos\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T13:37:42.502Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Jogos\\Edit.cshtml",
-              "RelativeDocumentMoniker": "LocadoraDejogos\\Views\\Jogos\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Jogos\\Edit.cshtml",
-              "RelativeToolTip": "LocadoraDejogos\\Views\\Jogos\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T13:37:46.049Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Jogos\\Index.cshtml",
               "RelativeDocumentMoniker": "LocadoraDejogos\\Views\\Jogos\\Index.cshtml",
               "ToolTip": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Jogos\\Index.cshtml",
               "RelativeToolTip": "LocadoraDejogos\\Views\\Jogos\\Index.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T13:37:49.971Z"
+              "WhenOpened": "2024-11-11T13:37:49.971Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Privacies\\Index.cshtml",
-              "RelativeDocumentMoniker": "LocadoraDejogos\\Views\\Privacies\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Privacies\\Index.cshtml",
-              "RelativeToolTip": "LocadoraDejogos\\Views\\Privacies\\Index.cshtml",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAEkAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T15:37:36.932Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "LocadoraDejogos\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "LocadoraDejogos\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAGMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T16:32:06.123Z"
+              "WhenOpened": "2024-11-11T16:32:06.123Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "_Layout.cshtml.css",
               "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Shared\\_Layout.cshtml.css",
               "RelativeDocumentMoniker": "LocadoraDejogos\\Views\\Shared\\_Layout.cshtml.css",
@@ -294,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "LocadoraDejogos\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -306,7 +248,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\appsettings.Development.json",
               "RelativeDocumentMoniker": "LocadoraDejogos\\appsettings.Development.json",
@@ -318,7 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\appsettings.json",
               "RelativeDocumentMoniker": "LocadoraDejogos\\appsettings.json",
@@ -326,36 +268,132 @@
               "RelativeToolTip": "LocadoraDejogos\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-12T15:42:53.951Z",
+              "WhenOpened": "2024-11-12T15:42:53.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Alugueis\\Index.cshtml",
+              "RelativeDocumentMoniker": "LocadoraDejogos\\Views\\Alugueis\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Alugueis\\Index.cshtml",
+              "RelativeToolTip": "LocadoraDejogos\\Views\\Alugueis\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T14:07:03.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Clientes\\Index.cshtml",
+              "RelativeDocumentMoniker": "LocadoraDejogos\\Views\\Clientes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Clientes\\Index.cshtml",
+              "RelativeToolTip": "LocadoraDejogos\\Views\\Clientes\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T14:04:48.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Consoles\\Index.cshtml",
+              "RelativeDocumentMoniker": "LocadoraDejogos\\Views\\Consoles\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Consoles\\Index.cshtml",
+              "RelativeToolTip": "LocadoraDejogos\\Views\\Consoles\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T14:01:35.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Funcionarios\\Index.cshtml",
+              "RelativeDocumentMoniker": "LocadoraDejogos\\Views\\Funcionarios\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Funcionarios\\Index.cshtml",
+              "RelativeToolTip": "LocadoraDejogos\\Views\\Funcionarios\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T14:12:53.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "LocadoraDejogos\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "LocadoraDejogos\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T14:26:16.82Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "LocadoraDejogos\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "LocadoraDejogos\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Privacies\\Index.cshtml",
+              "RelativeDocumentMoniker": "LocadoraDejogos\\Views\\Privacies\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Privacies\\Index.cshtml",
+              "RelativeToolTip": "LocadoraDejogos\\Views\\Privacies\\Index.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEkAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T14:26:16.82Z"
+              "WhenOpened": "2024-11-11T15:37:36.932Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Funcionarios\\Index.cshtml",
-              "RelativeDocumentMoniker": "LocadoraDejogos\\Views\\Funcionarios\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Funcionarios\\Index.cshtml",
-              "RelativeToolTip": "LocadoraDejogos\\Views\\Funcionarios\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAJAAAAAAAAAA==",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Jogos\\Edit.cshtml",
+              "RelativeDocumentMoniker": "LocadoraDejogos\\Views\\Jogos\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Jogos\\Edit.cshtml",
+              "RelativeToolTip": "LocadoraDejogos\\Views\\Jogos\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T14:12:53.808Z"
+              "WhenOpened": "2024-11-11T13:37:46.049Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Jogos\\Details.cshtml",
+              "RelativeDocumentMoniker": "LocadoraDejogos\\Views\\Jogos\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Jogos\\Details.cshtml",
+              "RelativeToolTip": "LocadoraDejogos\\Views\\Jogos\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T13:37:42.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Jogos\\Delete.cshtml",
+              "RelativeDocumentMoniker": "LocadoraDejogos\\Views\\Jogos\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Jogos\\Delete.cshtml",
+              "RelativeToolTip": "LocadoraDejogos\\Views\\Jogos\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T13:37:38.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Jogos\\Create.cshtml",
+              "RelativeDocumentMoniker": "LocadoraDejogos\\Views\\Jogos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Jogos\\Create.cshtml",
+              "RelativeToolTip": "LocadoraDejogos\\Views\\Jogos\\Create.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T13:37:32.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Funcionarios\\Edit.cshtml",
               "RelativeDocumentMoniker": "LocadoraDejogos\\Views\\Funcionarios\\Edit.cshtml",
@@ -367,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Funcionarios\\Details.cshtml",
               "RelativeDocumentMoniker": "LocadoraDejogos\\Views\\Funcionarios\\Details.cshtml",
@@ -379,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Funcionarios\\Delete.cshtml",
               "RelativeDocumentMoniker": "LocadoraDejogos\\Views\\Funcionarios\\Delete.cshtml",
@@ -391,7 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Funcionarios\\Create.cshtml",
               "RelativeDocumentMoniker": "LocadoraDejogos\\Views\\Funcionarios\\Create.cshtml",
@@ -403,19 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Consoles\\Index.cshtml",
-              "RelativeDocumentMoniker": "LocadoraDejogos\\Views\\Consoles\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Consoles\\Index.cshtml",
-              "RelativeToolTip": "LocadoraDejogos\\Views\\Consoles\\Index.cshtml",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAC0AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T14:01:35.881Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Consoles\\Edit.cshtml",
               "RelativeDocumentMoniker": "LocadoraDejogos\\Views\\Consoles\\Edit.cshtml",
@@ -427,7 +453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Consoles\\Details.cshtml",
               "RelativeDocumentMoniker": "LocadoraDejogos\\Views\\Consoles\\Details.cshtml",
@@ -439,7 +465,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Consoles\\Delete.cshtml",
               "RelativeDocumentMoniker": "LocadoraDejogos\\Views\\Consoles\\Delete.cshtml",
@@ -451,7 +477,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Consoles\\Create.cshtml",
               "RelativeDocumentMoniker": "LocadoraDejogos\\Views\\Consoles\\Create.cshtml",
@@ -463,19 +489,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Clientes\\Index.cshtml",
-              "RelativeDocumentMoniker": "LocadoraDejogos\\Views\\Clientes\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Clientes\\Index.cshtml",
-              "RelativeToolTip": "LocadoraDejogos\\Views\\Clientes\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T14:04:48.393Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Clientes\\Edit.cshtml",
               "RelativeDocumentMoniker": "LocadoraDejogos\\Views\\Clientes\\Edit.cshtml",
@@ -487,7 +501,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Clientes\\Details.cshtml",
               "RelativeDocumentMoniker": "LocadoraDejogos\\Views\\Clientes\\Details.cshtml",
@@ -499,7 +513,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Clientes\\Delete.cshtml",
               "RelativeDocumentMoniker": "LocadoraDejogos\\Views\\Clientes\\Delete.cshtml",
@@ -511,7 +525,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Clientes\\Create.cshtml",
               "RelativeDocumentMoniker": "LocadoraDejogos\\Views\\Clientes\\Create.cshtml",
@@ -523,7 +537,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Alugueis\\Edit.cshtml",
               "RelativeDocumentMoniker": "LocadoraDejogos\\Views\\Alugueis\\Edit.cshtml",
@@ -535,7 +549,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Alugueis\\Details.cshtml",
               "RelativeDocumentMoniker": "LocadoraDejogos\\Views\\Alugueis\\Details.cshtml",
@@ -547,7 +561,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Alugueis\\Delete.cshtml",
               "RelativeDocumentMoniker": "LocadoraDejogos\\Views\\Alugueis\\Delete.cshtml",
@@ -559,7 +573,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Alugueis\\Create.cshtml",
               "RelativeDocumentMoniker": "LocadoraDejogos\\Views\\Alugueis\\Create.cshtml",
@@ -568,18 +582,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-11T16:26:07.62Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Alugueis\\Index.cshtml",
-              "RelativeDocumentMoniker": "LocadoraDejogos\\Views\\Alugueis\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Gabriel Carrascosa\\cs-workspace\\cs-locadora-de-jogos\\LocadoraDejogos\\Views\\Alugueis\\Index.cshtml",
-              "RelativeToolTip": "LocadoraDejogos\\Views\\Alugueis\\Index.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T14:07:03.785Z"
             },
             {
               "$type": "Document",

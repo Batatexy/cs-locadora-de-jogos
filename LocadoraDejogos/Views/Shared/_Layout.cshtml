@@ -91,29 +91,37 @@
                             
                         </li>
                     </ul>
-                    <! Tentar fazer funcionar a barra de pesquisa –>
+                    <!-- Tentar fazer funcionar a barra de pesquisa
+
                     <form class="d-flex">
                         <input class="form-control me-sm-2" type="search" placeholder="Pesquisar">
                         <button class="btn btn-secondary my-2 my-sm-0" type="submit">Pesquisar</button>
                     </form>
+
+                    -->
                 </div>
             </div>
         </nav>
     </header>
-    <div class="fundo">
-    </div>
-    <br />
-    <div class="container" sytle="flex: 1;">
 
+    <div class="fundo">
+
+    </div>
+
+    <br />
+
+    <div class="container" sytle="flex: 1;">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
+
     <footer class="border-top text-muted newFooter">
         <div class="container">
             &copy; 2024 - LocadoraDejogos - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
