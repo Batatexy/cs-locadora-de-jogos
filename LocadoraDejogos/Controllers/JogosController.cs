@@ -9,6 +9,8 @@ using LocadoraDejogos.Data;
 using LocadoraDejogos.Models;
 using ClosedXML.Excel;
 using DocumentFormat.OpenXml.Spreadsheet;
+using Microsoft.Extensions.Hosting.Internal;
+using DocumentFormat.OpenXml.Drawing.Charts;
 
 namespace LocadoraDejogos.Controllers
 {
@@ -102,10 +104,55 @@ namespace LocadoraDejogos.Controllers
         }
 
         // GET: Jogos
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string? Ordenar, string? Nome)
         {
-            var applicationDbContext = _context.Jogos.Include(j => j.Consoles);
-            return View(await applicationDbContext.ToListAsync());
+            var applicationDbContext = _context.Jogos.Include(j => j.Consoles).OrderBy(j => j.Nome);
+
+            if (Ordenar != null)
+            {
+                switch (Ordenar)
+                {
+                    case "Nome":
+                        applicationDbContext = _context.Jogos.Include(j => j.Consoles).OrderBy(j => j.Nome);
+                        break;
+
+                    case "Desenvolvedor":
+                        applicationDbContext = _context.Jogos.Include(j => j.Consoles).OrderBy(j => j.Desenvolvedor);
+                        break;
+
+                    case "Distribuidora":
+                        applicationDbContext = _context.Jogos.Include(j => j.Consoles).OrderBy(j => j.Distribuidora);
+                        break;
+
+                    case "Genero":
+                        applicationDbContext = _context.Jogos.Include(j => j.Consoles).OrderBy(j => j.Genero);
+                        break;
+
+                    case "Ano":
+                        applicationDbContext = _context.Jogos.Include(j => j.Consoles).OrderBy(j => j.Ano);
+                        break;
+
+                    case "ConsoleID":
+                        applicationDbContext = _context.Jogos.Include(j => j.Consoles).OrderBy(j => j.Consoles.Nome);
+                        break;
+
+                    case "Preco":
+                        applicationDbContext = _context.Jogos.Include(j => j.Consoles).OrderBy(j => j.Preco);
+                        break;
+                    default:
+                        break;
+                }
+            }
+            else
+            {
+                if (Nome != null)
+                {
+                    var applicationDbContextBuscar = _context.Jogos.Include(j => j.Consoles).Where(j => j.Nome.ToLower().Contains(Nome.ToLower())).Where(j => j.Unidade.HasValue && j.Unidade > 0);
+                    return View(await applicationDbContextBuscar.ToListAsync());
+                }
+            }
+
+            return View(await applicationDbContext.Where(j => j.Unidade.HasValue && j.Unidade > 0).ToListAsync());
         }
         
         // GET: Jogos/Details/5
@@ -113,7 +160,7 @@ namespace LocadoraDejogos.Controllers
         {
             if (id == null)
             {
-                return NotFound();
+                id = 1;
             }
 
             var jogos = await _context.Jogos
@@ -156,7 +203,7 @@ namespace LocadoraDejogos.Controllers
         {
             if (id == null)
             {
-                return NotFound();
+                id = 1;
             }
 
             var jogos = await _context.Jogos.FindAsync(id);
@@ -209,7 +256,7 @@ namespace LocadoraDejogos.Controllers
         {
             if (id == null)
             {
-                return NotFound();
+                id = 1;
             }
 
             var jogos = await _context.Jogos

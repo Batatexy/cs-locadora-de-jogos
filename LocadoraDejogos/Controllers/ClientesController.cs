@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using LocadoraDejogos.Data;
 using LocadoraDejogos.Models;
 using ClosedXML.Excel;
+using DocumentFormat.OpenXml.Drawing.Charts;
 
 namespace LocadoraDejogos.Controllers
 {
@@ -93,9 +94,48 @@ namespace LocadoraDejogos.Controllers
         }
 
         // GET: Clientes
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string? Ordenar, string? Nome)
         {
-            return View(await _context.Clientes.ToListAsync());
+            var applicationDbContext = _context.Clientes.OrderBy(j => j.Nome);
+
+            if (Ordenar != null)
+            {
+                switch (Ordenar)
+                {
+                    case "Login":
+                        applicationDbContext = _context.Clientes.OrderBy(j => j.Login);
+                        break;
+
+                    case "Senha":
+                        applicationDbContext = _context.Clientes.OrderBy(j => j.Senha);
+                        break;
+
+                    case "CPF":
+                        applicationDbContext = _context.Clientes.OrderBy(j => j.CPF);
+                        break;
+
+                    case "DataNascimento":
+                        applicationDbContext = _context.Clientes.OrderBy(j => j.DataNascimento);
+                        break;
+
+                    case "Telefone":
+                        applicationDbContext = _context.Clientes.OrderBy(j => j.Telefone);
+                        break;
+
+                    default:
+                        break;
+                }
+            }
+            else
+            {
+                if (Nome != null)
+                {
+                    var applicationDbContextBuscar = _context.Clientes.Where(a => a.Nome.ToLower().Contains(Nome.ToLower()));
+                    return View(await applicationDbContextBuscar.ToListAsync());
+                }
+            }
+
+            return View(await applicationDbContext.ToListAsync());
         }
 
         // GET: Clientes/Details/5
@@ -103,7 +143,7 @@ namespace LocadoraDejogos.Controllers
         {
             if (id == null)
             {
-                return NotFound();
+                id = 1;
             }
 
             var clientes = await _context.Clientes
@@ -143,7 +183,7 @@ namespace LocadoraDejogos.Controllers
         {
             if (id == null)
             {
-                return NotFound();
+                id = 1;
             }
 
             var clientes = await _context.Clientes.FindAsync(id);
@@ -194,7 +234,7 @@ namespace LocadoraDejogos.Controllers
         {
             if (id == null)
             {
-                return NotFound();
+                id = 1;
             }
 
             var clientes = await _context.Clientes

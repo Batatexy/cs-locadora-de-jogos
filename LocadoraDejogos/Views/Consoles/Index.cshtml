@@ -57,10 +57,30 @@
         <div class="tabela consoles">
             <ul class="linha remove-margin ">
                 <li>Imagem</li>
-                <li>@Html.DisplayNameFor(model => model.Nome)</li>
-                <li>@Html.DisplayNameFor(model => model.Fabricante)</li>
-                <li>@Html.DisplayNameFor(model => model.Geracao)</li>
-                <li>@Html.DisplayNameFor(model => model.Ano)</li>
+                
+                <li>
+                    <a asp-action="Index" asp-route-Ordenar="Nome" class="remove-link">
+                        @Html.DisplayNameFor(model => model.Nome)
+                    </a>
+                </li>
+                
+                <li>
+                    <a asp-action="Index" asp-route-Ordenar="Fabricante" class="remove-link">
+                        @Html.DisplayNameFor(model => model.Fabricante)
+                    </a>
+                </li>
+                
+                <li>
+                    <a asp-action="Index" asp-route-Ordenar="Geracao" class="remove-link">
+                        @Html.DisplayNameFor(model => model.Geracao)
+                    </a>
+                </li>
+                
+                <li>
+                    <a asp-action="Index" asp-route-Ordenar="Ano" class="remove-link">
+                        @Html.DisplayNameFor(model => model.Ano)
+                    </a>
+                </li>
             </ul>
         </div>
 
@@ -83,7 +103,7 @@
                         </li>
                         <li>@Html.DisplayFor(modelItem => item.Nome)</li>
                         <li>@Html.DisplayFor(modelItem => item.Fabricante)</li>
-                        <li>@Html.DisplayFor(modelItem => item.Geracao)</li>
+                        <li>@Html.DisplayFor(modelItem => item.Geracao)ª</li>
                         <li>@Html.DisplayFor(modelItem => item.Ano)</li>
                     </ul>
 

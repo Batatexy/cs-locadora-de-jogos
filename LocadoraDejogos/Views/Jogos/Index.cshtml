@@ -51,32 +51,66 @@
 
 <br />
 <br />
-<br />
 
 <table class="table table-hover tabela">
-<thead >
-    <div class="tabela jogos" 
-            style="margin-left:2.5%; margin-right:2.5%; background-color:white; padding:1%; 
-                    border-radius: 10px; border: 2px solid black;" >
+<thead>
+    <div class="tabela jogos"
+             style="margin-left:2.5%; margin-right:2.5%; margin-bottom:8px; margin-top:4px; background-color:white; padding:1%;
+             border-radius: 10px; border: 2px solid black;" >
         <ul class="linha remove-margin">
             <li style="padding-left: 1%;">Imagem</li>
-            <li>@Html.DisplayNameFor(model => model.Nome)</li>
-            <li style="padding-left: 2%;">@Html.DisplayNameFor(model => model.Desenvolvedor)</li>
-            <li>@Html.DisplayNameFor(model => model.Distribuidora)</li>
-            <li>@Html.DisplayNameFor(model => model.Genero)</li>
-            <li>@Html.DisplayNameFor(model => model.Ano)</li>
-            <li>Console</li>
-            <li >Unidades</li>
-            <li>Preço</li>
+            <li>
+                <a asp-action="Index" asp-route-Ordenar="Nome" class="remove-link">
+                    @Html.DisplayNameFor(model => model.Nome)
+                </a>
+            </li>
+
+            <li style="padding-left: 2%;">
+                    <a asp-action="Index" asp-route-Ordenar="Desenvolvedor" class="remove-link">
+                    @Html.DisplayNameFor(model => model.Desenvolvedor)
+                </a>
+            </li>
+
+            <li>
+                <a asp-action="Index" asp-route-Ordenar="Distribuidora" class="remove-link">
+                    @Html.DisplayNameFor(model => model.Distribuidora)
+                </a>
+            </li>
+
+            <li>
+                <a asp-action="Index" asp-route-Ordenar="Genero" class="remove-link">
+                    @Html.DisplayNameFor(model => model.Genero)
+                </a>
+            </li>
+
+            <li>
+                <a asp-action="Index" asp-route-Ordenar="Ano" class="remove-link">
+                    @Html.DisplayNameFor(model => model.Ano)
+                </a>
+            </li>
+
+            <li>
+                <a asp-action="Index" asp-route-Ordenar="ConsoleID" class="remove-link">
+                    Console
+                </a>
+            </li>
+
+            <li >
+                <a asp-action="Index" asp-route-Ordenar="Unidade" class="remove-link">
+                    Unidades
+                </a>
+            </li>
+
+            <li>
+                <a asp-action="Index" asp-route-Ordenar="Preco" class="remove-link">
+                    Preço
+                </a>
+            </li>
+
             <li>Alugar</li>
         </ul>
     </div>
 </thead>
-
-<table class="table">
-    <thead>
-
-    </thead>
 
     <tbody>
         @foreach (var item in Model)

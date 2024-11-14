@@ -91,9 +91,44 @@ namespace LocadoraDejogos.Controllers
         }
 
         // GET: Consoles
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string? Ordenar, string? Nome)
         {
-            return View(await _context.Consoles.ToListAsync());
+            var applicationDbContext = _context.Consoles.OrderBy(j => j.Nome);
+
+            if (Ordenar != null)
+            {
+                switch (Ordenar)
+                {
+                    case "Nome":
+                        applicationDbContext = _context.Consoles.OrderBy(j => j.Nome);
+                        break;
+
+                    case "Fabricante":
+                        applicationDbContext = _context.Consoles.OrderBy(j => j.Fabricante);
+                        break;
+
+                    case "Geracao":
+                        applicationDbContext = _context.Consoles.OrderBy(j => j.Geracao);
+                        break;
+
+                    case "Ano":
+                        applicationDbContext = _context.Consoles.OrderBy(j => j.Ano);
+                        break;
+
+                    default:
+                        break;
+                }
+            }
+            else
+            {
+                if (Nome != null)
+                {
+                    var applicationDbContextBuscar = _context.Consoles.Where(a => a.Nome.ToLower().Contains(Nome.ToLower()));
+                    return View(await applicationDbContextBuscar.ToListAsync());
+                }
+            }
+
+            return View(await applicationDbContext.ToListAsync());
         }
 
         // GET: Consoles/Details/5
@@ -101,7 +136,7 @@ namespace LocadoraDejogos.Controllers
         {
             if (id == null)
             {
-                return NotFound();
+                id = 1;
             }
 
             var consoles = await _context.Consoles
@@ -141,7 +176,7 @@ namespace LocadoraDejogos.Controllers
         {
             if (id == null)
             {
-                return NotFound();
+                id = 1;
             }
 
             var consoles = await _context.Consoles.FindAsync(id);
@@ -192,7 +227,7 @@ namespace LocadoraDejogos.Controllers
         {
             if (id == null)
             {
-                return NotFound();
+                id = 1;
             }
 
             var consoles = await _context.Consoles

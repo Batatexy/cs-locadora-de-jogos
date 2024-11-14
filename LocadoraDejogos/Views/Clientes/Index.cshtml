@@ -56,12 +56,43 @@
     <thead>
         <div class="tabela clientes">
             <ul class="linha remove-margin ">
-                <li>@Html.DisplayNameFor(model => model.Login)</li>
-                <li>@Html.DisplayNameFor(model => model.Senha)</li>
-                <li>@Html.DisplayNameFor(model => model.CPF)</li>
-                <li>@Html.DisplayNameFor(model => model.Nome)</li>
-                <li>@Html.DisplayNameFor(model => model.DataNascimento)</li>
-                <li>@Html.DisplayNameFor(model => model.Telefone)</li>
+                
+                <li>
+                    <a asp-action="Index" asp-route-Ordenar="Login" class="remove-link">
+                        @Html.DisplayNameFor(model => model.Login)
+                    </a>
+                </li>
+
+                <li>
+                    <a asp-action="Index" asp-route-Ordenar="Senha" class="remove-link">
+                        @Html.DisplayNameFor(model => model.Senha)
+                    </a>
+                </li>
+                
+                <li>
+                    <a asp-action="Index" asp-route-Ordenar="CPF" class="remove-link">
+                        @Html.DisplayNameFor(model => model.CPF)
+                    </a>
+                </li>
+
+                <li>
+                    <a asp-action="Index" asp-route-Ordenar="Nome" class="remove-link">
+                        @Html.DisplayNameFor(model => model.Nome)
+                    </a>
+                </li>
+                
+                <li>
+                    <a asp-action="Index" asp-route-Ordenar="DataNascimento" class="remove-link">
+                        @Html.DisplayNameFor(model => model.DataNascimento)
+                    </a>
+                </li>
+                
+                <li>
+                    <a asp-action="Index" asp-route-Ordenar="Telefone" class="remove-link">
+                        @Html.DisplayNameFor(model => model.Telefone)
+                    </a>
+                </li>
+                
             </ul>
         </div>
     </thead>

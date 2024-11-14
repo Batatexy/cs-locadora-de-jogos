@@ -91,9 +91,44 @@ namespace LocadoraDejogos.Controllers
         }
 
         // GET: Funcionarios
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string? Ordenar, string? Nome)
         {
-            return View(await _context.Funcionarios.ToListAsync());
+            var applicationDbContext = _context.Funcionarios.OrderBy(j => j.Nome);
+
+            if (Ordenar != null)
+            {
+                switch (Ordenar)
+                {
+                    case "Login":
+                        applicationDbContext = _context.Funcionarios.OrderBy(j => j.Login);
+                        break;
+
+                    case "Senha":
+                        applicationDbContext = _context.Funcionarios.OrderBy(j => j.Senha);
+                        break;
+
+                    case "CPF":
+                        applicationDbContext = _context.Funcionarios.OrderBy(j => j.CPF);
+                        break;
+
+                    case "DataNascimento":
+                        applicationDbContext = _context.Funcionarios.OrderBy(j => j.DataNascimento);
+                        break;
+
+                    default:
+                        break;
+                }
+            }
+            else
+            {
+                if (Nome != null)
+                {
+                    var applicationDbContextBuscar = _context.Funcionarios.Where(a => a.Nome.ToLower().Contains(Nome.ToLower()));
+                    return View(await applicationDbContextBuscar.ToListAsync());
+                }
+            }
+
+            return View(await applicationDbContext.ToListAsync());
         }
 
         // GET: Funcionarios/Details/5
@@ -101,7 +136,7 @@ namespace LocadoraDejogos.Controllers
         {
             if (id == null)
             {
-                return NotFound();
+                id = 1;
             }
 
             var funcionarios = await _context.Funcionarios
@@ -141,7 +176,7 @@ namespace LocadoraDejogos.Controllers
         {
             if (id == null)
             {
-                return NotFound();
+                id = 1;
             }
 
             var funcionarios = await _context.Funcionarios.FindAsync(id);
@@ -192,7 +227,7 @@ namespace LocadoraDejogos.Controllers
         {
             if (id == null)
             {
-                return NotFound();
+                id = 1;
             }
 
             var funcionarios = await _context.Funcionarios

@@ -52,12 +52,27 @@
 <br />
 
 <table class="table">
-       
         <div class="tabela alugueis">
             <ul class="linha remove-margin ">
-                <li>@Html.DisplayNameFor(model => model.Clientes)</li>
-                <li>@Html.DisplayNameFor(model => model.Jogos)</li>
-                <li>@Html.DisplayNameFor(model => model.Funcionarios)</li>
+                
+                <li>
+                    <a asp-action="Index" asp-route-Ordenar="Clientes" class="remove-link">
+                        @Html.DisplayNameFor(model => model.Clientes)
+                    </a>
+                </li>
+                
+                <li>
+                    <a asp-action="Index" asp-route-Ordenar="Jogos" class="remove-link">
+                        @Html.DisplayNameFor(model => model.Jogos)
+                    </a>
+                </li>
+                
+                <li>
+                    <a asp-action="Index" asp-route-Ordenar="Funcionarios" class="remove-link">
+                        @Html.DisplayNameFor(model => model.Funcionarios)
+                    </a>
+                </li>
+                
             </ul>
         </div>
     

@@ -26,21 +26,9 @@ namespace LocadoraDejogos.Controllers
         }
 
         // GET: Privacies/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public async Task<IActionResult> Details()
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var privacy = await _context.Privacy
-                .FirstOrDefaultAsync(m => m.ID == id);
-            if (privacy == null)
-            {
-                return NotFound();
-            }
-
-            return View(privacy);
+            return View(await _context.Privacy.ToListAsync());
         }
 
         // GET: Privacies/Create
@@ -56,29 +44,13 @@ namespace LocadoraDejogos.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("ID")] Privacy privacy)
         {
-            if (ModelState.IsValid)
-            {
-                _context.Add(privacy);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            return View(privacy);
+            return View(await _context.Privacy.ToListAsync());
         }
 
         // GET: Privacies/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var privacy = await _context.Privacy.FindAsync(id);
-            if (privacy == null)
-            {
-                return NotFound();
-            }
-            return View(privacy);
+            return View(await _context.Privacy.ToListAsync());
         }
 
         // POST: Privacies/Edit/5
@@ -88,50 +60,13 @@ namespace LocadoraDejogos.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("ID")] Privacy privacy)
         {
-            if (id != privacy.ID)
-            {
-                return NotFound();
-            }
-
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    _context.Update(privacy);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!PrivacyExists(privacy.ID))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
-            }
-            return View(privacy);
+            return View(await _context.Privacy.ToListAsync());
         }
 
         // GET: Privacies/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var privacy = await _context.Privacy
-                .FirstOrDefaultAsync(m => m.ID == id);
-            if (privacy == null)
-            {
-                return NotFound();
-            }
-
-            return View(privacy);
+            return View(await _context.Privacy.ToListAsync());
         }
 
         // POST: Privacies/Delete/5
@@ -139,14 +74,7 @@ namespace LocadoraDejogos.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var privacy = await _context.Privacy.FindAsync(id);
-            if (privacy != null)
-            {
-                _context.Privacy.Remove(privacy);
-            }
-
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            return View(await _context.Privacy.ToListAsync());
         }
 
         private bool PrivacyExists(int id)

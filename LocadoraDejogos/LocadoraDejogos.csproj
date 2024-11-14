@@ -18,4 +18,11 @@
     <PackageReference Include="RestEase" Version="1.6.4" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="Views\Privacies\Create.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>

@@ -9,6 +9,7 @@ using LocadoraDejogos.Data;
 using LocadoraDejogos.Models;
 using ClosedXML.Excel;
 using DocumentFormat.OpenXml.InkML;
+using DocumentFormat.OpenXml.Drawing.Charts;
 
 namespace LocadoraDejogos.Controllers
 {
@@ -102,9 +103,42 @@ namespace LocadoraDejogos.Controllers
             _context = context;
         }
 
-        public async Task<IActionResult> Index(int? Valor)
+        public async Task<IActionResult> Index(string? Ordenar, string? Nome)
         {
-            var applicationDbContext = _context.Alugueis.Include(a => a.Clientes).Include(a => a.Funcionarios).Include(a => a.Jogos);
+            var applicationDbContext = _context.Alugueis.Include(a => a.Clientes).Include(a => a.Funcionarios).Include(a => a.Jogos).OrderBy(j => j.Clientes.Nome);
+            
+            if (Ordenar != null)
+            {
+                switch (Ordenar)
+                {
+                    case "Clientes":
+                        applicationDbContext = _context.Alugueis.Include(a => a.Clientes).Include(a => a.Funcionarios).Include(a => a.Jogos).OrderBy(j => j.Clientes.Nome);
+                        break;
+
+                    case "Jogos":
+                        applicationDbContext = _context.Alugueis.Include(a => a.Clientes).Include(a => a.Funcionarios).Include(a => a.Jogos).OrderBy(j => j.Jogos.Nome);
+                        break;
+
+                    case "Funcionarios":
+                        applicationDbContext = _context.Alugueis.Include(a => a.Clientes).Include(a => a.Funcionarios).Include(a => a.Jogos).OrderBy(j => j.Funcionarios.Nome);
+                        break;
+
+                    default:
+                        break;
+                }
+            }
+            else
+            {
+                if (Nome != null)
+                {
+                    var applicationDbContextBuscar = _context.Alugueis.Include(a => a.Clientes).Include(a => a.Funcionarios).Include(a => a.Jogos)
+                        .Where(a => a.Clientes.Nome.ToLower().Contains(Nome.ToLower()));
+
+                    return View(await applicationDbContextBuscar.ToListAsync());
+
+                }
+            }
+
             return View(await applicationDbContext.ToListAsync());
         }
 
@@ -113,7 +147,7 @@ namespace LocadoraDejogos.Controllers
         {
             if (id == null)
             {
-                return NotFound();
+                return View();
             }
 
             var alugueis = await _context.Alugueis
@@ -155,10 +189,44 @@ namespace LocadoraDejogos.Controllers
         {
             if (ModelState.IsValid)
             {
+                // Encontra o jogo com base no JogoID
+                var jogo = await _context.Jogos.FirstOrDefaultAsync(j => j.ID == alugueis.JogoID);
+
+                if (jogo == null)
+                {
+                    // Caso o jogo não seja encontrado
+                    ModelState.AddModelError("", "Jogo não encontrado.");
+                    ViewData["ClienteID"] = new SelectList(_context.Clientes, "ID", "Nome", alugueis.ClienteID);
+                    ViewData["FuncionarioID"] = new SelectList(_context.Funcionarios, "ID", "Nome", alugueis.FuncionarioID);
+                    ViewData["JogoID"] = new SelectList(_context.Jogos, "ID", "Nome", alugueis.JogoID);
+                    return View(alugueis); // Retorna com erro
+                }
+
+                // Verifica se há unidades disponíveis do jogo
+                if (jogo.Unidade <= 0)
+                {
+                    // Se não houver unidades suficientes
+                    ModelState.AddModelError("", "Não há unidades disponíveis para este jogo.");
+                    ViewData["ClienteID"] = new SelectList(_context.Clientes, "ID", "Nome", alugueis.ClienteID);
+                    ViewData["FuncionarioID"] = new SelectList(_context.Funcionarios, "ID", "Nome", alugueis.FuncionarioID);
+                    ViewData["JogoID"] = new SelectList(_context.Jogos, "ID", "Nome", alugueis.JogoID);
+                    return View(alugueis); // Retorna com erro
+                }
+
+                // Decrementa a unidade do jogo
+                jogo.Unidade -= 1;
+
+                // Adiciona o aluguel ao banco de dados
                 _context.Add(alugueis);
+
+                // Salva as alterações (incluindo o novo aluguel e a atualização da unidade do jogo)
                 await _context.SaveChangesAsync();
+
+                // Redireciona para a página de aluguéis ou outra página conforme necessário
                 return RedirectToAction(nameof(Index));
             }
+
+            // Se o modelo não for válido, retorna à página de criação
             ViewData["ClienteID"] = new SelectList(_context.Clientes, "ID", "Nome", alugueis.ClienteID);
             ViewData["FuncionarioID"] = new SelectList(_context.Funcionarios, "ID", "Nome", alugueis.FuncionarioID);
             ViewData["JogoID"] = new SelectList(_context.Jogos, "ID", "Nome", alugueis.JogoID);
@@ -170,7 +238,7 @@ namespace LocadoraDejogos.Controllers
         {
             if (id == null)
             {
-                return NotFound();
+                return View();
             }
 
             var alugueis = await _context.Alugueis.FindAsync(id);
@@ -227,7 +295,7 @@ namespace LocadoraDejogos.Controllers
         {
             if (id == null)
             {
-                return NotFound();
+                return View();
             }
 
             var alugueis = await _context.Alugueis
@@ -248,15 +316,31 @@ namespace LocadoraDejogos.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
+            // Encontra o aluguel a ser removido
             var alugueis = await _context.Alugueis.FindAsync(id);
+
             if (alugueis != null)
             {
+                // Encontra o jogo relacionado ao aluguel
+                var jogo = await _context.Jogos.FirstOrDefaultAsync(j => j.ID == alugueis.JogoID);
+
+                if (jogo != null)
+                {
+                    // Aumenta 1 unidade do jogo
+                    jogo.Unidade += 1;
+                }
+
+                // Remove o aluguel
                 _context.Alugueis.Remove(alugueis);
+
+                // Salva as alterações no banco de dados (incluindo a atualização da unidade do jogo)
+                await _context.SaveChangesAsync();
             }
 
-            await _context.SaveChangesAsync();
+            // Redireciona para a página de aluguéis ou outra página conforme necessário
             return RedirectToAction(nameof(Index));
         }
+
 
         private bool AlugueisExists(int id)
         {
